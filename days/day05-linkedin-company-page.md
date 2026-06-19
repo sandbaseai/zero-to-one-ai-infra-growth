@@ -24,6 +24,30 @@ That made the setup more than a form-fill task.
 
 Create a public LinkedIn company page for SandBaseAI, complete the page details, publish a first company post, and make sure ordinary visitors see the company as the author rather than a private personal account.
 
+## Beginner View
+
+LinkedIn is not just another place to post.
+
+For a B2B infrastructure company, it answers a basic trust question:
+
+```text
+Is this a real company with a public identity?
+```
+
+That is why the company page, author visibility, and admin privacy all mattered.
+
+## Visual Map
+
+```mermaid
+flowchart LR
+  A["Create company page"] --> B["Add logo + website"]
+  B --> C["Write practical About section"]
+  C --> D["Publish first company post"]
+  D --> E{"Does public see company as author?"}
+  E -- "Yes" --> F["Use as B2B trust surface"]
+  E -- "No" --> G["Fix author / admin setup"]
+```
+
 ## Tools Used
 
 | Tool | Role | How it was used |
@@ -130,3 +154,16 @@ LinkedIn is not just another social account.
 It is a credibility object.
 
 For SandBase, the page helped establish that the company has a public identity beyond the website, while still respecting the founder's account privacy constraints.
+
+## Share Copy
+
+```text
+Day 5 of building SandBase.ai in public:
+
+We created the LinkedIn company page.
+
+Not for vanity.
+For B2B trust.
+
+When someone searches the company, they should see a real infrastructure brand, not just a landing page.
+```

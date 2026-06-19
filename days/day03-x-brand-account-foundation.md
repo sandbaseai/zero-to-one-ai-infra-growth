@@ -26,6 +26,29 @@ Create and complete the SandBase X account without triggering the feeling of a t
 
 The goal was to make the account look real, stable, and technically focused.
 
+## Beginner View
+
+A new X account should not behave like a marketing bot.
+
+For a technical product, the first job is to look real: clear bio, real website, one positioning post, and a calm posting rhythm.
+
+The simple version:
+
+```text
+Do not chase reach on day one. Establish trust first.
+```
+
+## Visual Map
+
+```mermaid
+flowchart LR
+  A["Create account"] --> B["Add logo + website"]
+  B --> C["Write clear bio"]
+  C --> D["Post one positioning note"]
+  D --> E["Secure account"]
+  E --> F["Daily build-note cadence"]
+```
+
 ## Tools Used
 
 | Tool | Role | How it was used |
@@ -137,3 +160,18 @@ X is not the whole growth engine.
 It is a public heartbeat.
 
 For SandBase, the job of X is to make the company look alive, technical, and consistent when a developer checks whether the project is real.
+
+## Share Copy
+
+```text
+Day 3 of building SandBase.ai in public:
+
+We set up X, but did not try to "growth hack" it.
+
+One clear bio.
+One positioning post.
+No mass following.
+No link spam.
+
+For a new infra brand, the first job is to look real and consistent.
+```

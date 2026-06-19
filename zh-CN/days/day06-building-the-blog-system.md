@@ -26,6 +26,33 @@ sandbase-monorepo/sandbase-blog
 
 https://www.sandbase.ai/blog/
 
+## 给小白的话
+
+Blog 不是“发文章的地方”这么简单。
+
+对技术产品来说：
+
+```text
+官网解释产品。
+Blog 解释问题空间。
+```
+
+如果 SandBase 要让市场理解 agent infrastructure，就需要一个能长期承载技术内容的系统。
+
+## 流程图
+
+```mermaid
+flowchart TD
+  A["Blog 系统"] --> B["Markdown 内容"]
+  A --> C["RSS"]
+  A --> D["Sitemap"]
+  A --> E["Search index"]
+  A --> F["JSON-LD"]
+  B --> G["内容集群"]
+  G --> H["Google 发现"]
+  G --> I["开发者教育"]
+```
+
 ## 使用工具
 
 | 工具 | 用途 |
@@ -70,3 +97,16 @@ Blog 中几个关键设计很重要：
 Blog 不是内容装饰，而是技术分发基础设施。
 
 SandBase 要建立 agent infrastructure 的品类认知，就需要一个能持续承载 runtime、sandbox、tools、models、observability 等主题的内容系统。
+
+## 可传播文案
+
+```text
+SandBase.ai 30 天运营 Day 6：
+
+我们把 Blog 当成内容基础设施来做。
+
+不是随便发文章。
+而是 RSS、sitemap、双语内容、canonical、JSON-LD、topic clusters。
+
+技术内容要能长期复利，先要有系统。
+```

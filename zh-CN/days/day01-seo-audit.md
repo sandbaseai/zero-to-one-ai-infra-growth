@@ -24,6 +24,30 @@ SandBase 是面向 production AI agents 的 agent infrastructure 平台。
 
 重点不是“刷关键词”，而是确认网站是否具备被抓取、被索引、被分享、被信任的基础条件。
 
+## 给小白的话
+
+SEO 第一天不是写文章，而是先确认 Google 能不能进门。
+
+一个网站在人类浏览器里打开正常，不代表 Googlebot 看到的也是正常页面。
+
+最简单的理解：
+
+```text
+先确认 Google 能看到网站，再谈怎么让 Google 喜欢网站。
+```
+
+## 流程图
+
+```mermaid
+flowchart LR
+  A["打开官网"] --> B["人类访问正常"]
+  B --> C["用 Googlebot 模拟访问"]
+  C --> D{"Googlebot 状态码"}
+  D -- "404" --> E["检查 nginx / prerender"]
+  E --> F["修复 crawler fallback"]
+  D -- "200" --> G["进入收录和内容阶段"]
+```
+
 ## 使用工具
 
 | 工具 | 用途 |
@@ -63,3 +87,17 @@ SandBase 是面向 production AI agents 的 agent infrastructure 平台。
 第一天最重要的不是立刻拿到流量，而是让后面的每一次内容发布、社媒链接、外链提交都有一个可靠的官网承接。
 
 SEO 的第一步不是写文章，是让网站像一个真实产品。
+
+## 可传播文案
+
+```text
+SandBase.ai 30 天运营 Day 1：
+
+我们没有先写文章，也没有先发帖。
+
+第一步是确认 Googlebot 能不能看到网站。
+
+结果发现：人类访问首页是 200，但 crawler 看到的是 404。
+
+SEO 的第一步不是关键词，是 crawlability。
+```

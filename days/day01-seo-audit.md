@@ -42,6 +42,30 @@ The goal was not to make the site perfect. The goal was to answer:
 4. Do bots and normal users see the same thing?
 5. Is there any root cause that should be fixed before asking Google to index more pages?
 
+## Beginner View
+
+If you are new to SEO, think of Day 1 like checking whether the front door of your store is open.
+
+You can write great articles later, but if Googlebot walks up to the site and gets a `404`, the content engine starts with a broken foundation.
+
+The simple version:
+
+```text
+Before asking Google to rank the site, make sure Google can load the site.
+```
+
+## Visual Map
+
+```mermaid
+flowchart LR
+  A["Founder opens the website"] --> B["Looks fine in browser"]
+  B --> C["Codex tests crawler user agents"]
+  C --> D{"Does Googlebot get 200?"}
+  D -- "No, gets 404" --> E["Inspect nginx / prerender config"]
+  E --> F["Fix crawler fallback"]
+  D -- "Yes" --> G["Move to indexing and content"]
+```
+
 ## Tools Used
 
 | Tool | Role | How it was used |
@@ -254,3 +278,15 @@ Day 2 should focus on verification:
 - Check canonical host redirects
 - Request indexing only after the crawler response is fixed
 
+## Share Copy
+
+```text
+Day 1 of building SandBase.ai in public:
+
+We did not start with content.
+We started by checking whether Googlebot could actually see the site.
+
+The homepage worked for humans but returned 404 to crawlers.
+
+Lesson: before SEO content, fix crawlability.
+```

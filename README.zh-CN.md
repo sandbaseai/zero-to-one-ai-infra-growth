@@ -6,6 +6,11 @@
 
 这是 [SandBase.ai](https://www.sandbase.ai) 的 30 天 build-in-public 运营记录。SandBase 是面向生产级 AI agents 的 agent infrastructure 平台，核心方向包括 agent runtime、sandboxed execution、tool access、model routing、distributed compute 和 developer APIs。
 
+如果你是第一次看，建议先读：
+
+- [第 1 周复盘 — 先搭可信基础盘，再做分发](zh-CN/week01-foundation-recap.md)
+- [Day 1 — SEO 体检：先让网站可被理解和抓取](zh-CN/days/day01-seo-audit.md)
+
 这个仓库不是普通 SEO 清单，也不是目录提交流水账。
 
 它记录的是一个早期 B2B AI infrastructure 产品如何从 0 开始建立第一层可信度：
@@ -153,6 +158,7 @@ The infrastructure layer for developers building production AI agents.
 - [Day 5 — LinkedIn 公司主页：建立 B2B 可信度](zh-CN/days/day05-linkedin-company-page.md)
 - [Day 6 — Blog 系统：把内容当成技术分发基础设施](zh-CN/days/day06-building-the-blog-system.md)
 - [Day 7 — 第一周收口：GitHub 信任资产和内容集群](zh-CN/days/day07-first-content-clusters.md)
+- [第 1 周复盘 — 先搭可信基础盘，再做分发](zh-CN/week01-foundation-recap.md)
 
 ### 第 2 周：分发和日常运营
 

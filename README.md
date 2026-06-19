@@ -6,6 +6,11 @@
 
 This is the build log for [SandBase.ai](https://www.sandbase.ai), an agent infrastructure platform for developers building production AI agents.
 
+If you are new here, start with:
+
+- [Week 1 recap — Building the trust foundation before distribution](week01-foundation-recap.md)
+- [Day 1 — Before content, make sure Google can see the site](days/day01-seo-audit.md)
+
 It is not a generic SEO checklist.
 It is not a directory submission dump.
 It is not a collection of AI-generated marketing posts.
@@ -234,6 +239,7 @@ Success criteria:
 - [Day 5 — Creating the LinkedIn company page without exposing the wrong account](days/day05-linkedin-company-page.md)
 - [Day 6 — Building the blog as a technical content engine](days/day06-building-the-blog-system.md)
 - [Day 7 — Closing week one with GitHub trust assets and topic clusters](days/day07-first-content-clusters.md)
+- [Week 1 recap — Building the trust foundation before distribution](week01-foundation-recap.md)
 
 ### Week 2 — Trust and Links
 

@@ -29,6 +29,36 @@
 - 把 Blog 内容规划成 topic clusters
 - 为第二周目录提交和社区分发做准备
 
+## 给小白的话
+
+第一周不是“注册一堆账号”。
+
+真正的目标是让所有公开渠道互相支撑：
+
+```text
+官网、Blog、GitHub、Discord、LinkedIn、X 讲同一个故事。
+```
+
+这样第二周对外分发时，别人点进任何一个入口，都能感受到 SandBase 是一个真实、持续建设的技术产品。
+
+## 流程图
+
+```mermaid
+flowchart TD
+  A["SandBase 定位"] --> B["官网"]
+  A --> C["Blog"]
+  A --> D["GitHub"]
+  A --> E["Discord"]
+  A --> F["LinkedIn"]
+  A --> G["X"]
+  C --> H["内容集群"]
+  D --> I["开发者信任资产"]
+  E --> J["反馈循环"]
+  H --> K["第二周分发"]
+  I --> K
+  J --> K
+```
+
 ## GitHub 信任资产
 
 仓库：
@@ -93,3 +123,16 @@ The Agent Infrastructure Stack: Runtime, Tools, Sandboxing, Models, and Observab
 - GitHub 提供技术资产
 
 有了这个基础，第二周再做目录提交和社区分发才有意义。
+
+## 可传播文案
+
+```text
+SandBase.ai 30 天运营第 1 周完成。
+
+我们没有先追流量。
+
+我们先搭可信基础盘：
+官网、Blog、Search Console、X、Discord、LinkedIn、GitHub resource repo。
+
+现在第二周的分发，才有东西可以承接。
+```

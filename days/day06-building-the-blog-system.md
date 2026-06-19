@@ -31,6 +31,33 @@ Build a blog system that can support SEO, bilingual content, topic clusters, and
 
 The goal was not simply to publish a few posts. The goal was to create a content engine that can scale over the full 30-day growth plan.
 
+## Beginner View
+
+A blog is not just a place to publish articles.
+
+For a technical product, the blog is the place where you teach the market what category you are building in.
+
+The simple version:
+
+```text
+The website explains the product.
+The blog explains the problem space.
+```
+
+## Visual Map
+
+```mermaid
+flowchart TD
+  A["Blog system"] --> B["Markdown content"]
+  A --> C["RSS"]
+  A --> D["Sitemap"]
+  A --> E["Search index"]
+  A --> F["JSON-LD"]
+  B --> G["Topic clusters"]
+  G --> H["Google discovery"]
+  G --> I["Developer education"]
+```
+
 ## Tools Used
 
 | Tool | Role | How it was used |
@@ -199,3 +226,17 @@ The blog is not content decoration.
 It is technical distribution infrastructure.
 
 For SandBase, the blog gives the company a place to build authority around agent infrastructure before paid acquisition, launch spikes, or directory backlinks matter.
+
+## Share Copy
+
+```text
+Day 6 of building SandBase.ai in public:
+
+We treated the blog as infrastructure.
+
+Not just posts.
+
+RSS, sitemap, bilingual content, canonical handling, JSON-LD, topic clusters.
+
+For an infra product, content needs a system before it can compound.
+```

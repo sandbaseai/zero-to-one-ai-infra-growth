@@ -48,6 +48,36 @@ The goal was:
 - each cluster supports future landing pages
 - each cluster creates internal linking opportunities
 
+## Beginner View
+
+By the end of Week 1, the goal is not to have "many accounts."
+
+The goal is to have a connected trust system. If a developer finds SandBase through any channel, the next channel should make the company feel more real, not less.
+
+The simple version:
+
+```text
+Website + Blog + GitHub + Discord + LinkedIn + X should all tell the same story.
+```
+
+## Visual Map
+
+```mermaid
+flowchart TD
+  A["SandBase positioning"] --> B["Website"]
+  A --> C["Blog"]
+  A --> D["GitHub"]
+  A --> E["Discord"]
+  A --> F["LinkedIn"]
+  A --> G["X"]
+  C --> H["Topic clusters"]
+  D --> I["Developer trust asset"]
+  E --> J["Feedback loop"]
+  H --> K["Week 2 distribution"]
+  I --> K
+  J --> K
+```
+
 ## Tools Used
 
 | Tool | Role | How it was used |
@@ -237,3 +267,22 @@ It created a connected foundation:
 - GitHub gives developers a technical artifact
 
 That foundation is what makes Week 2 distribution worth doing.
+
+## Share Copy
+
+```text
+Week 1 of building SandBase.ai in public is done.
+
+We did not chase traffic first.
+
+We built the trust foundation:
+- website
+- blog
+- Search Console
+- X
+- Discord
+- LinkedIn
+- GitHub resource repo
+
+Now distribution has something real to point to.
+```

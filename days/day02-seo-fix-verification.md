@@ -33,6 +33,30 @@ Close the Day 1 P0 issue and make the site more canonical:
 4. Check that homepage metadata is strong enough for indexing and sharing.
 5. Define the exact moment when it is safe to request indexing in Search Console.
 
+## Beginner View
+
+Fixing a bug is not the same as proving it is fixed.
+
+Day 2 was about acting like Google, not like a developer. We tested the site with crawler user agents, checked the canonical host, and only then treated the SEO foundation as ready.
+
+The simple version:
+
+```text
+Do not ask Google to index a page until you have tested what Googlebot receives.
+```
+
+## Visual Map
+
+```mermaid
+flowchart TD
+  A["Day 1: Googlebot got 404"] --> B["Deploy crawler fallback fix"]
+  B --> C["Test with Googlebot user agent"]
+  C --> D["Test key routes"]
+  D --> E["Choose canonical host"]
+  E --> F["Redirect non-canonical host"]
+  F --> G["Ready for Search Console reindexing"]
+```
+
 ## Tools Used
 
 | Tool | Role | How it was used |
@@ -258,6 +282,19 @@ For any new B2B SaaS or developer tool website:
 5. Test social crawler user agents if LinkedIn/X sharing matters.
 6. Confirm sitemap remains reachable.
 7. Confirm canonical metadata matches the redirect target.
+
+## Share Copy
+
+```text
+Day 2 of building SandBase.ai in public:
+
+We treated verification as growth work.
+
+The fix was not done when the code changed.
+It was done when Googlebot received 200, key routes worked, and the canonical host was clear.
+
+SEO starts with proof.
+```
 8. Only then request indexing in Search Console.
 
 ## Next Actions
@@ -278,4 +315,3 @@ That means auditing core pages:
 - pricing/contact
 - use case pages
 - community page
-

@@ -22,6 +22,30 @@ X 是 build signal，LinkedIn 是 B2B trust surface。
 
 https://www.linkedin.com/company/sandbaseai/
 
+## 给小白的话
+
+LinkedIn 对 B2B 产品来说不是“多一个社媒账号”。
+
+它解决的是一个信任问题：
+
+```text
+别人搜索你时，会不会觉得这是一个真实公司？
+```
+
+所以公司主页、作者身份、管理员隐私都要认真处理。
+
+## 流程图
+
+```mermaid
+flowchart LR
+  A["创建公司主页"] --> B["logo + 官网"]
+  B --> C["About 文案"]
+  C --> D["第一条公司动态"]
+  D --> E{"公开作者是公司吗？"}
+  E -- "是" --> F["形成 B2B 信任面"]
+  E -- "否" --> G["调整发布身份"]
+```
+
 ## 使用工具
 
 | 工具 | 用途 |
@@ -83,3 +107,15 @@ SandBaseAI is building agent infrastructure for developers working on production
 LinkedIn 不是普通社媒账号，它是可信度资产。
 
 对 SandBase 这种 B2B infra 产品来说，公司主页的作用是让外界看到一个清晰、稳定、专业的公司身份。
+
+## 可传播文案
+
+```text
+SandBase.ai 30 天运营 Day 5：
+
+我们创建了 LinkedIn 公司主页。
+
+不是为了多一个账号，而是为了 B2B 信任。
+
+当客户、候选人或合作方搜索公司时，他们需要看到一个清楚、稳定、专业的公开身份。
+```
