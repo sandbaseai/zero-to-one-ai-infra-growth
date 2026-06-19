@@ -14,7 +14,6 @@ If you are new here, start with:
 
 - [Week 1 recap — Building the trust foundation before distribution](week01-foundation-recap.md)
 - [Day 1 — Before content, make sure Google can see the site](days/day01-seo-audit.md)
-- [Social snippets for X and LinkedIn](social-snippets.md)
 - [Image prompts for social cards](assets/image-prompts/README.md)
 
 ## What This Is

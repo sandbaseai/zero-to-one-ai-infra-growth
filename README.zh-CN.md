@@ -14,7 +14,6 @@ SandBase.ai 是面向生产级 AI agents 的 agent infrastructure 平台。
 
 - [第 1 周复盘 — 先搭可信基础盘，再做分发](zh-CN/week01-foundation-recap.md)
 - [Day 1 — SEO 体检：先让网站可被理解和抓取](zh-CN/days/day01-seo-audit.md)
-- [X / LinkedIn 社媒文案素材](zh-CN/social-snippets.md)
 - [社媒图片生成提示词](assets/image-prompts/README.md)
 
 ## 这是什么
