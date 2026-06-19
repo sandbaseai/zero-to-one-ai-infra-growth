@@ -47,7 +47,7 @@ By the end of Week 2, we want:
 | Day | Focus | Planned Output | Record During Execution |
 |-----|-------|----------------|-------------------------|
 | Day 8 | Distribution strategy | Channel filter and target list | Which channels are credible, which should wait |
-| Day 9 | Developer directory setup | Submit or prepare 2-3 credible profiles | Submission status, blockers, category choices |
+| Day 9 | Daily ops + emerging agent market | Keep social/community loop alive and define registry direction | Daily ops notes, market positioning, directory prep blockers |
 | Day 10 | GitHub trust asset improvement | Improve resource repo README and usefulness | Stars, feedback, missing resources, positioning issues |
 | Day 11 | Off-site technical article | Draft or publish Dev.to / developer article | Comments, clicks, wording that resonates |
 | Day 12 | Community participation | Join relevant discussions without link spam | Questions found, objections, useful threads |
@@ -60,6 +60,7 @@ By the end of Week 2, we want:
 
 - GitHub
 - Dev.to
+- Emerging Agent Infrastructure registry
 - Peerlist
 - Indie Hackers
 - selected AI infrastructure directories
@@ -102,4 +103,21 @@ Each Day 9-14 log should be updated during execution with:
 
 ```text
 Do fewer things, make them real, and learn from every interaction.
+```
+
+## Strategic Update
+
+Day 9 raised the priority of a new SandBase ecosystem idea:
+
+```text
+Emerging Agent Infrastructure
+```
+
+This should be treated as more important than ordinary directory submission. The goal is to track new, future-facing, technically valuable agent infrastructure projects that may one day integrate with SandBase.
+
+This supports Week 2 distribution because it gives SandBase a stronger story:
+
+```text
+SandBase is not only promoting itself.
+SandBase is mapping the agent infrastructure ecosystem it wants to serve.
 ```
