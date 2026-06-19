@@ -117,6 +117,7 @@ Each project should be evaluated by:
 ## Links Created Or Updated
 
 - Planning doc: [Emerging Agent Infrastructure Registry](../playbooks/emerging-agent-infrastructure-registry.md)
+- Submission kit: [Directory Submission Kit](../playbooks/directory-submission-kit.md)
 
 ## Questions / Blockers
 
@@ -137,4 +138,4 @@ Track emerging agent infrastructure projects that represent future directions an
 
 ## Next Action
 
-Create the first selection rubric and collect the first 20-30 candidate projects.
+Publish one controlled external profile, preferably on a developer-oriented channel such as Peerlist Project, then record the submission status.

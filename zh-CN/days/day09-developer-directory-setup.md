@@ -117,6 +117,7 @@ Emerging Agent Infrastructure
 ## 创建或更新的链接
 
 - Planning doc: [Emerging Agent Infrastructure Registry](../../playbooks/emerging-agent-infrastructure-registry.md)
+- Submission kit: [外部目录提交素材包](../playbooks/directory-submission-kit.md)
 
 ## 问题 / 阻塞
 
@@ -137,4 +138,4 @@ Registry 有价值的前提是有判断力。
 
 ## 下一步
 
-创建第一版筛选标准，收集 20-30 个候选项目。
+发布一个可控的外部 profile，优先选择 Peerlist Project 这类开发者渠道，然后记录提交状态。
