@@ -125,16 +125,3 @@ The Agent Infrastructure Stack: Runtime, Tools, Sandboxing, Models, and Observab
 - GitHub 提供技术资产
 
 有了这个基础，第二周再做目录提交和社区分发才有意义。
-
-## 可传播文案
-
-```text
-SandBase.ai 30 天运营第 1 周完成。
-
-我们没有先追流量。
-
-我们先搭可信基础盘：
-官网、Blog、Search Console、X、Discord、LinkedIn、GitHub resource repo。
-
-现在第二周的分发，才有东西可以承接。
-```

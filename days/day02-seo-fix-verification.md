@@ -284,19 +284,6 @@ For any new B2B SaaS or developer tool website:
 5. Test social crawler user agents if LinkedIn/X sharing matters.
 6. Confirm sitemap remains reachable.
 7. Confirm canonical metadata matches the redirect target.
-
-## Share Copy
-
-```text
-Day 2 of building SandBase.ai in public:
-
-We treated verification as growth work.
-
-The fix was not done when the code changed.
-It was done when Googlebot received 200, key routes worked, and the canonical host was clear.
-
-SEO starts with proof.
-```
 8. Only then request indexing in Search Console.
 
 ## Next Actions

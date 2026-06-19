@@ -99,16 +99,3 @@ Blog 中几个关键设计很重要：
 Blog 不是内容装饰，而是技术分发基础设施。
 
 SandBase 要建立 agent infrastructure 的品类认知，就需要一个能持续承载 runtime、sandbox、tools、models、observability 等主题的内容系统。
-
-## 可传播文案
-
-```text
-SandBase.ai 30 天运营 Day 6：
-
-我们把 Blog 当成内容基础设施来做。
-
-不是随便发文章。
-而是 RSS、sitemap、双语内容、canonical、JSON-LD、topic clusters。
-
-技术内容要能长期复利，先要有系统。
-```

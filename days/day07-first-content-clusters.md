@@ -269,22 +269,3 @@ It created a connected foundation:
 - GitHub gives developers a technical artifact
 
 That foundation is what makes Week 2 distribution worth doing.
-
-## Share Copy
-
-```text
-Week 1 of building SandBase.ai in public is done.
-
-We did not chase traffic first.
-
-We built the trust foundation:
-- website
-- blog
-- Search Console
-- X
-- Discord
-- LinkedIn
-- GitHub resource repo
-
-Now distribution has something real to point to.
-```

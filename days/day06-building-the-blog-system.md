@@ -228,17 +228,3 @@ The blog is not content decoration.
 It is technical distribution infrastructure.
 
 For SandBase, the blog gives the company a place to build authority around agent infrastructure before paid acquisition, launch spikes, or directory backlinks matter.
-
-## Share Copy
-
-```text
-Day 6 of building SandBase.ai in public:
-
-We treated the blog as infrastructure.
-
-Not just posts.
-
-RSS, sitemap, bilingual content, canonical handling, JSON-LD, topic clusters.
-
-For an infra product, content needs a system before it can compound.
-```

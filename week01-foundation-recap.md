@@ -116,25 +116,3 @@ The rule for Week 2:
 ```text
 Do not submit SandBase everywhere. Submit where the asset is useful and the audience is real.
 ```
-
-## Share Copy
-
-```text
-Week 1 of building SandBase.ai in public is complete.
-
-We did not start with growth hacks.
-
-We built the trust foundation:
-- website SEO
-- Search Console
-- blog system
-- X
-- Discord
-- LinkedIn
-- GitHub resource repo
-
-Now distribution has something real to point to.
-
-Full log:
-https://github.com/sandbaseai/zero-to-one-ai-infra-growth
-```

@@ -121,15 +121,3 @@ Human confirms public submissions and posts.
 ## Next Action
 
 Turn the GitHub resource repo and blog clusters into the first distribution posts.
-
-## Share Copy
-
-```text
-Day 8 of building SandBase.ai in public:
-
-Week 2 starts with distribution, but not link dumping.
-
-Before submitting anywhere, we prepared the website, blog, GitHub org, LinkedIn page, X account, Discord, and the first developer-facing resource.
-
-Distribution works better after trust exists.
-```

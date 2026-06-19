@@ -94,16 +94,3 @@ Building SandBaseAI: agent infrastructure for production AI agents.
 X 对 SandBase 的作用不是立刻带来大流量，而是建立“这个项目每天都在推进”的信号。
 
 早期最重要的是稳定、真实、技术感，而不是热闹。
-
-## 可传播文案
-
-```text
-SandBase.ai 30 天运营 Day 3：
-
-我们创建了 X 账号，但没有急着做增长。
-
-新账号第一天只做几件事：
-头像、官网、bio、一条定位帖、安全设置。
-
-对技术品牌来说，第一步不是热闹，是可信。
-```

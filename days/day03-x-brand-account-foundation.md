@@ -162,18 +162,3 @@ X is not the whole growth engine.
 It is a public heartbeat.
 
 For SandBase, the job of X is to make the company look alive, technical, and consistent when a developer checks whether the project is real.
-
-## Share Copy
-
-```text
-Day 3 of building SandBase.ai in public:
-
-We set up X, but did not try to "growth hack" it.
-
-One clear bio.
-One positioning post.
-No mass following.
-No link spam.
-
-For a new infra brand, the first job is to look real and consistent.
-```

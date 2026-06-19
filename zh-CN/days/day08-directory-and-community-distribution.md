@@ -113,15 +113,3 @@ Codex 可以研究、起草、比较和记录。
 ## 下一步
 
 把 GitHub resource repo 和 Blog topic clusters 转成第一批分发内容。
-
-## 可传播文案
-
-```text
-SandBase.ai 30 天运营 Day 8：
-
-第 2 周开始做分发，但不是到处贴链接。
-
-在提交目录之前，我们先准备了官网、Blog、GitHub org、LinkedIn 公司主页、X、Discord 和第一个开发者资源。
-
-先有可信资产，分发才有意义。
-```

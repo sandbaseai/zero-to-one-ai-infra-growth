@@ -156,16 +156,3 @@ LinkedIn is not just another social account.
 It is a credibility object.
 
 For SandBase, the page helped establish that the company has a public identity beyond the website, while still keeping personal account boundaries clear.
-
-## Share Copy
-
-```text
-Day 5 of building SandBase.ai in public:
-
-We created the LinkedIn company page.
-
-Not for vanity.
-For B2B trust.
-
-When someone searches the company, they should see a real infrastructure brand, not just a landing page.
-```

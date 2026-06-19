@@ -336,19 +336,3 @@ A developer joining SandBase Discord should immediately understand:
 That is enough for day one.
 
 The community can become bigger later. First, it has to be understandable.
-
-## Share Copy
-
-```text
-Day 4 of building SandBase.ai in public:
-
-We reviewed Discord as product infrastructure, not just a chat room.
-
-The goal:
-- clear first screen
-- simple builder paths
-- controlled permissions
-- places for help and feedback
-
-Small and clear beats big and empty.
-```

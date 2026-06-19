@@ -117,19 +117,3 @@ The infrastructure layer for developers building production AI agents.
 不要到处提交 SandBase。
 只去那些资产有用、用户真实的地方。
 ```
-
-## 可传播文案
-
-```text
-SandBase.ai 30 天运营第 1 周完成。
-
-我们没有先做增长技巧。
-
-我们先搭可信基础盘：
-官网 SEO、Search Console、Blog、X、Discord、LinkedIn、GitHub resource repo。
-
-现在第 2 周的分发，才有东西可以承接。
-
-完整记录：
-https://github.com/sandbaseai/zero-to-one-ai-infra-growth
-```

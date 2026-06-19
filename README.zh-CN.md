@@ -14,6 +14,7 @@ SandBase.ai 是面向生产级 AI agents 的 agent infrastructure 平台。
 
 - [第 1 周复盘 — 先搭可信基础盘，再做分发](zh-CN/week01-foundation-recap.md)
 - [Day 1 — SEO 体检：先让网站可被理解和抓取](zh-CN/days/day01-seo-audit.md)
+- [X / LinkedIn 社媒文案素材](zh-CN/social-snippets.md)
 - [社媒图片生成提示词](assets/image-prompts/README.md)
 
 ## 这是什么
@@ -74,16 +75,6 @@ The infrastructure layer for developers building production AI agents.
 
 如果你正在用 Codex 做运营，可以重点看每次操作里的确认边界：Codex 可以检查、起草、执行，但发布、提交、改权限这类公开副作用仍然需要人确认。
 
-## 适合转发的话
-
-```text
-我们正在公开记录 SandBase.ai 如何从 0 到 1 搭建一个 AI infrastructure 产品的可信基础盘：
-
-SEO、Blog、GitHub、X、Discord、LinkedIn、开发者目录，以及每天真实发生的运营决策。
-
-这不是增长黑客。
-而是让一个真实技术产品更容易被理解和信任。
-```
 
 ## 每周目标
 

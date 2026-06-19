@@ -109,15 +109,3 @@ SandBaseAI is building agent infrastructure for developers working on production
 LinkedIn 不是普通社媒账号，它是可信度资产。
 
 对 SandBase 这种 B2B infra 产品来说，公司主页的作用是让外界看到一个清晰、稳定、专业的公司身份。
-
-## 可传播文案
-
-```text
-SandBase.ai 30 天运营 Day 5：
-
-我们创建了 LinkedIn 公司主页。
-
-不是为了多一个账号，而是为了 B2B 信任。
-
-当客户、候选人或合作方搜索公司时，他们需要看到一个清楚、稳定、专业的公开身份。
-```
