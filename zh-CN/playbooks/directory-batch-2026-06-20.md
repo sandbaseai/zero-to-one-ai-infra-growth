@@ -18,11 +18,11 @@ Agent infrastructure for developers building production AI agents.
 
 优先级：P0
 
-状态：profile 已创建；Launchpad 被账号完成度限制
+状态：profile 已创建；今天按 backlink / profile 目标视为完成
 
-费用状态：暂未确认。公开 Launchpad 页面在登录前没有显示价格；提交流程当前需要 Google 登录。
+费用状态：公开 profile 免费。Peerlist 官方 verification 文档说明 workplace、educational institution、bootcamp verification 免费；identity verification 需要少量费用，并且需要政府 ID。
 
-预算规则：只在免费或低于 30 美金时继续；最终提交或购买前必须人工确认。
+预算规则：这一阶段只继续免费 profile 动作。不做付费 identity verification。
 
 当前结果：
 
@@ -36,6 +36,8 @@ Agent infrastructure for developers building production AI agents.
 - 当前浏览器会话中，Launch 按钮仍未打开提交表单
 - 没有出现付费步骤
 - 暂未提交 project launch
+- 已查看官方 verification 文档。verification 对 profile 完成来说是可选项；identity verification 付费且需要政府 ID。
+- 决策：今天不做 identity verification，也不强行推进 Launchpad submission。
 
 为什么选它：
 
@@ -65,11 +67,13 @@ It provides the runtime layer for agent apps: sandboxed execution, safe tool acc
 - https://github.com/sandbaseai
 - https://www.linkedin.com/company/sandbaseai/
 
-提交前确认：
+Launch 前确认：
 
 - 分类不会让 SandBase 变成普通 AI app
 - 公开 profile 预览干净
 - 人确认后再最终提交
+- 不要求 identity verification
+- 没有未经确认的付费步骤
 
 ## 目标 2 — DevHunt
 
@@ -162,7 +166,8 @@ SandBase is building infrastructure for the emerging agent ecosystem: runtimes, 
 下一步：
 
 ```text
-用户打开目标页面，或稍后重试浏览器访问。
+Peerlist 先作为今天已完成的 profile link 收口。
+继续推进 DevHunt 或 Uneed 作为下一个目录目标。
 Codex 使用已准备文案填写表单。
-最终提交前由人确认。
+最终提交或付费前由人确认。
 ```

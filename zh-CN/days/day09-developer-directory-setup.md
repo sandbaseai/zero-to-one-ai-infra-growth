@@ -125,6 +125,12 @@ Emerging Agent Infrastructure
 - 添加了公司安全的 skills：`ai`、`Python`、`JavaScript`、`Machine Learning`。
 - Peerlist profile 完成度提升到 `40%`，页面变成 `You can interact now!`。
 - profile 可互动后重新尝试 Launchpad，但当前会话中 Launch 按钮仍未打开提交表单。
+- 继续前查看了 Peerlist 官方 verification 帮助页，结论是：
+  - verification 对创建和完善 Peerlist profile 来说是可选项
+  - workplace、education、bootcamp verification 免费
+  - identity verification 需要少量费用，并且需要政府 ID
+  - 完成 verification 后，验证状态会显示在 profile 上，但用于验证的证件信息或工作邮箱不会公开展示
+- 决策：这次目录动作不做 identity verification。今天的外部 profile / backlink 目标，用公开 Peerlist profile 已经足够。
 
 ## 创建或更新的链接
 
@@ -139,11 +145,11 @@ Emerging Agent Infrastructure
 - 第一版数据格式用 Markdown、CSV、JSON，还是产品数据库？
 - 项目提交先人工审核，还是做公开 submit form？
 - 收录时是否必须有 SandBase compatibility，还是先判断 integration potential？
-- Peerlist 和 DevHunt 在内置浏览器里都打开超时，所以第一次提交已准备好，但还没有提交。
-- 每个目录都必须记录费用状态。Uneed 有免费新产品排队和付费升级；Peerlist 和 DevHunt 在提交前费用暂未确认。
+- Peerlist 和 DevHunt 在前面的内置浏览器尝试中都出现过超时，所以第一次提交已准备好，但还没有提交。
+- 每个目录都必须记录费用状态。Uneed 有免费新产品排队和付费升级；Peerlist profile 免费，workplace 类 verification 免费，identity verification 付费；DevHunt 在提交前费用暂未确认。
 - 新增预算规则：单个目录或 launch 动作不超过 30 美金，优先免费。任何付费仍需人工确认。
-- Peerlist profile 已创建，但 Launchpad 需要更高账号 / profile 完成度后才能互动。
-- 添加 logo 和 skills 后，Peerlist 已允许互动，但 Launch 表单仍没有打开。可能还需要更多 profile 信息、project/work entry、verification，或是页面交互问题。
+- Peerlist profile 已创建，并且已经可以作为公开品牌 profile 链接使用。
+- 添加 logo 和 skills 后，Peerlist 已允许互动，但 Launch 表单仍没有打开。可能还需要更多 profile 信息、project/work entry、可选 verification，或是页面交互问题。
 
 ## 经验
 
@@ -155,6 +161,14 @@ Registry 有价值的前提是有判断力。
 追踪代表未来方向、未来可能和 SandBase 深度集成的 agent infrastructure 项目。
 ```
 
+目录提交也是一样：不要为了完成度徽章去做所有动作。
+
+对一个新 infrastructure 品牌来说，早期更好的判断是：
+
+```text
+用免费、可信的 profile 建立公开信任，但在没有明确业务价值前，跳过隐私成本高、ROI 不清晰的身份验证动作。
+```
+
 ## 下一步
 
-寻找 Peerlist project/work entry 入口，或补充更多公司安全 profile 信息后重试 Launchpad。
+Peerlist 今天按外部 profile / backlink 目标先收口，然后继续做下一个目录目标：DevHunt 或 Uneed。

@@ -125,6 +125,12 @@ Each project should be evaluated by:
 - Company-safe skills were added: `ai`, `Python`, `JavaScript`, `Machine Learning`.
 - Peerlist profile completion increased to `40%`, and the page changed to `You can interact now!`.
 - Launchpad was retried after the profile became interactive, but the Launch button did not open a submission form in the current session.
+- Peerlist's official verification help page was reviewed before continuing. The finding:
+  - verification is optional for creating and completing a Peerlist profile
+  - workplace, education, and bootcamp verification are free
+  - identity verification has a small fee and requires government-issued ID
+  - completed verifications are visible on the profile, while verification documents or work email details are not shown publicly
+- Decision: do not do identity verification for this directory step. The public Peerlist profile is enough for today's external profile/backlink objective.
 
 ## Links Created Or Updated
 
@@ -139,11 +145,11 @@ Each project should be evaluated by:
 - What is the first data format: Markdown list, CSV, JSON, or product database?
 - Should project submission be manual at first, or include a public submit form?
 - How much SandBase compatibility should be required before listing?
-- Peerlist and DevHunt both timed out in the in-app browser session, so the first submission is prepared but not yet submitted.
-- Cost status must be recorded for each directory. Uneed has a free new-product queue and paid upgrades; Peerlist and DevHunt pricing remain unconfirmed before submission.
+- Peerlist and DevHunt both timed out in the in-app browser session during earlier attempts, so the first submission is prepared but not yet submitted.
+- Cost status must be recorded for each directory. Uneed has a free new-product queue and paid upgrades; Peerlist profile is free, workplace-style verification is free, identity verification is paid, and DevHunt pricing remains unconfirmed before submission.
 - Budget added: each directory or launch action should stay under $30, with free preferred. Any payment still requires human confirmation.
-- Peerlist profile exists, but Launchpad requires more account/profile readiness before interaction.
-- Peerlist now allows interaction after logo and skills were added, but the Launch form still did not open. It may require more profile data, a project/work entry, verification, or a page-specific issue.
+- Peerlist profile exists and is usable as a public brand/profile link.
+- Peerlist now allows interaction after logo and skills were added, but the Launch form still did not open. It may require more profile data, a project/work entry, optional verification, or a page-specific issue.
 
 ## Lesson
 
@@ -155,6 +161,14 @@ The stronger angle is not "list agent tools." It is:
 Track emerging agent infrastructure projects that represent future directions and may integrate with SandBase.
 ```
 
+The directory lesson is similar: do not chase every completion badge.
+
+For a new infrastructure brand, the better early move is:
+
+```text
+Use free, credible profiles to build public trust, but skip privacy-heavy or low-ROI verification steps until there is a clear business reason.
+```
+
 ## Next Action
 
-Find the Peerlist project/work entry path or retry Launchpad after adding more company-safe profile data.
+Treat Peerlist as completed for today's profile/backlink objective, then continue with the next directory target: DevHunt or Uneed.

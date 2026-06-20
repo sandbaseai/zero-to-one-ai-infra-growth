@@ -18,11 +18,11 @@ Avoid channels that force SandBase into a generic AI app category.
 
 Priority: P0
 
-Status: profile created; Launchpad blocked by account readiness
+Status: profile created; treat as completed for today's backlink/profile goal
 
-Cost status: unconfirmed. Public Launchpad page did not expose a price before sign-in; submission flow currently requires Google sign-in.
+Cost status: public profile is free. Official Peerlist verification docs say workplace, educational institution, and bootcamp verification are free; identity verification has a small fee and requires government-issued ID.
 
-Budget rule: only continue if free or under $30; final submit/purchase requires human confirmation.
+Budget rule: continue only with free profile actions. Do not do paid identity verification for this stage.
 
 Current result:
 
@@ -36,6 +36,8 @@ Current result:
 - Launch button still did not open the submission form in the current browser session
 - No paid step appeared
 - No project launch submitted yet
+- Official verification docs were checked. Verification is optional for profile completion; identity verification is paid and requires government ID.
+- Decision: do not pursue identity verification or force Launchpad submission today.
 
 Why this channel:
 
@@ -65,11 +67,13 @@ Links to include:
 - https://github.com/sandbaseai
 - https://www.linkedin.com/company/sandbaseai/
 
-Submit only after:
+Launch only after:
 
 - category does not imply generic AI app
 - public profile preview looks clean
 - human confirms final submit
+- no identity verification requirement appears
+- no paid step appears without explicit approval
 
 ## Target 2 — DevHunt
 
@@ -162,7 +166,8 @@ Result:
 Next action:
 
 ```text
-User opens the target page or retries browser access.
-Codex fills the form with the prepared copy.
-Human confirms before final submission.
+Peerlist is accepted as today's completed profile link.
+Move to DevHunt or Uneed for the next directory attempt.
+Codex fills any form with the prepared copy.
+Human confirms before final submission or payment.
 ```
