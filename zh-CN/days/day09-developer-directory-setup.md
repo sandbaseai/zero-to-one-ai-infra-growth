@@ -118,6 +118,7 @@ Emerging Agent Infrastructure
 
 - Planning doc: [Emerging Agent Infrastructure Registry](../../playbooks/emerging-agent-infrastructure-registry.md)
 - Submission kit: [外部目录提交素材包](../playbooks/directory-submission-kit.md)
+- Directory batch: [外部目录批次 — 2026-06-20](../playbooks/directory-batch-2026-06-20.md)
 
 ## 问题 / 阻塞
 
@@ -125,6 +126,7 @@ Emerging Agent Infrastructure
 - 第一版数据格式用 Markdown、CSV、JSON，还是产品数据库？
 - 项目提交先人工审核，还是做公开 submit form？
 - 收录时是否必须有 SandBase compatibility，还是先判断 integration potential？
+- Peerlist 和 DevHunt 在内置浏览器里都打开超时，所以第一次提交已准备好，但还没有提交。
 
 ## 经验
 

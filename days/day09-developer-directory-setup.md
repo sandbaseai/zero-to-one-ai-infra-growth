@@ -118,6 +118,7 @@ Each project should be evaluated by:
 
 - Planning doc: [Emerging Agent Infrastructure Registry](../playbooks/emerging-agent-infrastructure-registry.md)
 - Submission kit: [Directory Submission Kit](../playbooks/directory-submission-kit.md)
+- Directory batch: [Directory Batch — 2026-06-20](../playbooks/directory-batch-2026-06-20.md)
 
 ## Questions / Blockers
 
@@ -125,6 +126,7 @@ Each project should be evaluated by:
 - What is the first data format: Markdown list, CSV, JSON, or product database?
 - Should project submission be manual at first, or include a public submit form?
 - How much SandBase compatibility should be required before listing?
+- Peerlist and DevHunt both timed out in the in-app browser session, so the first submission is prepared but not yet submitted.
 
 ## Lesson
 
