@@ -29,7 +29,11 @@ Agent infrastructure for developers building production AI agents.
 - 公开 profile 已创建：`https://peerlist.io/sandbase`
 - 已添加官网和 X
 - LinkedIn 公司主页未添加，因为 Peerlist 只接受 `linkedin.com/in/` 个人主页格式
-- Launchpad 当前显示 `25% You can’t interact yet`
+- 已从 SandBase 公司资产上传 logo
+- 已添加 skills：`ai`、`Python`、`JavaScript`、`Machine Learning`
+- Profile 完成度从 `25%` 提升到 `40%`
+- Launchpad 状态从 `You can’t interact yet` 变成 `You can interact now!`
+- 当前浏览器会话中，Launch 按钮仍未打开提交表单
 - 没有出现付费步骤
 - 暂未提交 project launch
 

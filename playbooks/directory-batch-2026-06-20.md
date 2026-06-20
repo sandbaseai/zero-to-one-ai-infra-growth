@@ -29,7 +29,11 @@ Current result:
 - Public profile created: `https://peerlist.io/sandbase`
 - Website and X added
 - LinkedIn company page not added because Peerlist expects `linkedin.com/in/` personal profile format
-- Launchpad currently shows `25% You can’t interact yet`
+- Logo uploaded from SandBase company assets
+- Skills added: `ai`, `Python`, `JavaScript`, `Machine Learning`
+- Profile completion increased from `25%` to `40%`
+- Launchpad changed from `You can’t interact yet` to `You can interact now!`
+- Launch button still did not open the submission form in the current browser session
 - No paid step appeared
 - No project launch submitted yet
 

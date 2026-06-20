@@ -121,6 +121,10 @@ Emerging Agent Infrastructure
   - X：`SandbaseAI`
 - LinkedIn 公司主页没有填写，因为 Peerlist 的 LinkedIn 字段限定为 `linkedin.com/in/`，这是个人主页格式，不适合公司主页。
 - 已打开 Peerlist Launchpad，但账号显示 `25% You can’t interact yet`，暂时无法提交项目 launch。
+- 已从公司 logo 资产上传 SandBase logo。
+- 添加了公司安全的 skills：`ai`、`Python`、`JavaScript`、`Machine Learning`。
+- Peerlist profile 完成度提升到 `40%`，页面变成 `You can interact now!`。
+- profile 可互动后重新尝试 Launchpad，但当前会话中 Launch 按钮仍未打开提交表单。
 
 ## 创建或更新的链接
 
@@ -139,6 +143,7 @@ Emerging Agent Infrastructure
 - 每个目录都必须记录费用状态。Uneed 有免费新产品排队和付费升级；Peerlist 和 DevHunt 在提交前费用暂未确认。
 - 新增预算规则：单个目录或 launch 动作不超过 30 美金，优先免费。任何付费仍需人工确认。
 - Peerlist profile 已创建，但 Launchpad 需要更高账号 / profile 完成度后才能互动。
+- 添加 logo 和 skills 后，Peerlist 已允许互动，但 Launch 表单仍没有打开。可能还需要更多 profile 信息、project/work entry、verification，或是页面交互问题。
 
 ## 经验
 
@@ -152,4 +157,4 @@ Registry 有价值的前提是有判断力。
 
 ## 下一步
 
-继续完善 Peerlist：添加 logo、相关 skills，以及如果入口可用则添加 product/project，再重试 Launchpad。
+寻找 Peerlist project/work entry 入口，或补充更多公司安全 profile 信息后重试 Launchpad。

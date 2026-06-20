@@ -121,6 +121,10 @@ Each project should be evaluated by:
   - X: `SandbaseAI`
 - LinkedIn company page was not added because Peerlist's social field expects `linkedin.com/in/`, which is a personal profile format rather than a company page format.
 - Peerlist Launchpad was opened, but the account showed `25% You can’t interact yet`, so the project launch could not be submitted yet.
+- The SandBase logo was uploaded from the company logo asset.
+- Company-safe skills were added: `ai`, `Python`, `JavaScript`, `Machine Learning`.
+- Peerlist profile completion increased to `40%`, and the page changed to `You can interact now!`.
+- Launchpad was retried after the profile became interactive, but the Launch button did not open a submission form in the current session.
 
 ## Links Created Or Updated
 
@@ -139,6 +143,7 @@ Each project should be evaluated by:
 - Cost status must be recorded for each directory. Uneed has a free new-product queue and paid upgrades; Peerlist and DevHunt pricing remain unconfirmed before submission.
 - Budget added: each directory or launch action should stay under $30, with free preferred. Any payment still requires human confirmation.
 - Peerlist profile exists, but Launchpad requires more account/profile readiness before interaction.
+- Peerlist now allows interaction after logo and skills were added, but the Launch form still did not open. It may require more profile data, a project/work entry, verification, or a page-specific issue.
 
 ## Lesson
 
@@ -152,4 +157,4 @@ Track emerging agent infrastructure projects that represent future directions an
 
 ## Next Action
 
-Improve Peerlist readiness by adding company-safe profile assets such as logo, relevant skills, and a product/project entry if available; then retry Launchpad.
+Find the Peerlist project/work entry path or retry Launchpad after adding more company-safe profile data.
