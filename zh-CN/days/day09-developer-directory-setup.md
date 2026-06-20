@@ -131,6 +131,10 @@ Emerging Agent Infrastructure
   - identity verification 需要少量费用，并且需要政府 ID
   - 完成 verification 后，验证状态会显示在 profile 上，但用于验证的证件信息或工作邮箱不会公开展示
 - 决策：这次目录动作不做 identity verification。今天的外部 profile / backlink 目标，用公开 Peerlist profile 已经足够。
+- X 日常社媒运营已完成：
+  - 做了 2 次和产品定位相关的互动
+  - 转发了 1 条相关内容
+- 社媒内容方向也做了校准：外部平台应该优先讲产品观点、用户问题和 SandBase 对 infrastructure 的判断。具体运营过程适合记录在 build-in-public 实战日志里，不应该成为外部社媒主角。
 
 ## 创建或更新的链接
 
@@ -167,6 +171,15 @@ Registry 有价值的前提是有判断力。
 
 ```text
 用免费、可信的 profile 建立公开信任，但在没有明确业务价值前，跳过隐私成本高、ROI 不清晰的身份验证动作。
+```
+
+社媒运营也一样：公开内容不要写成内部运营流水账。
+
+运营过程可以作为素材，但对外发布时要提炼成更强的产品观点：
+
+```text
+Production agents 需要 runtime、sandboxed tools、observability、routing 和 compute。
+每天的运营动作，是为了让这个判断被对的 builder 看见。
 ```
 
 ## 下一步

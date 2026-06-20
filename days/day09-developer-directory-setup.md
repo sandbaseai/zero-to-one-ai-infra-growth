@@ -131,6 +131,10 @@ Each project should be evaluated by:
   - identity verification has a small fee and requires government-issued ID
   - completed verifications are visible on the profile, while verification documents or work email details are not shown publicly
 - Decision: do not do identity verification for this directory step. The public Peerlist profile is enough for today's external profile/backlink objective.
+- Daily social operation was completed on X:
+  - two product-relevant interactions
+  - one repost
+- The social content direction was corrected: external channels should lead with product insight, user problems, and SandBase's infrastructure point of view. Operational details belong in this build-in-public journal, not as the main topic on public social channels.
 
 ## Links Created Or Updated
 
@@ -167,6 +171,15 @@ For a new infrastructure brand, the better early move is:
 
 ```text
 Use free, credible profiles to build public trust, but skip privacy-heavy or low-ROI verification steps until there is a clear business reason.
+```
+
+The social lesson: public social should not sound like an internal operations log.
+
+Use operations as raw material, but publish the stronger product-facing idea:
+
+```text
+Production agents need runtime, sandboxed tools, observability, routing, and compute.
+The daily operating work exists to make that point visible to the right builders.
 ```
 
 ## Next Action
