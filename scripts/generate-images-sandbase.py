@@ -96,6 +96,16 @@ CARDS = [
         "Style: clean distribution map, no real platform logos, no fake URLs, no handles, no made-up metrics, off-white background, black text, teal connector lines, large readable typography. "
         "Only render the exact requested text and the six labels: Dev.to, Directories, GitHub, Communities, LinkedIn, X.",
     ),
+    (
+        "linkedin-uneed-agent-infra",
+        "Create a polished 1600x900 LinkedIn social media infographic for a B2B developer infrastructure company. "
+        "Text: 'Agent Infrastructure for Production AI Agents' and 'From demos to reliable systems.' "
+        "Show a clean architecture diagram with three layers: Agent Apps, SandBase Infrastructure, Production Systems. "
+        "Under SandBase Infrastructure, show five readable capability blocks: Sandboxed Runtime, Safe Tool Access, Model Routing, APIs, Distributed Compute. "
+        "Add a small question at the bottom: 'What breaks first when agents move to production?' "
+        "Style: calm technical editorial, off-white background, black text, muted gray panels, teal accents, subtle grid, professional LinkedIn-ready design, large readable typography. "
+        "Avoid: tiny text, fake dashboards, private data, real platform logos, stock-photo people, cartoon mascots, neon cyberpunk, excessive gradients, hype claims, misspellings.",
+    ),
 ]
 
 

@@ -70,6 +70,12 @@ The goal is to help agent builders move from demos to reliable systems that can 
 - 不出现私密 workspace、账号、token、billing、email 信息
 - 第一张截图要让人 3 秒内理解产品类别
 
+已生成社媒图：
+
+- [LinkedIn Uneed Agent Infrastructure Card](../../assets/generated-images/linkedin-uneed-agent-infra.png)
+- 通过 `scripts/generate-images-sandbase.py --only linkedin-uneed-agent-infra` 生成
+- 用途：LinkedIn 公司动态里配合 Uneed preparation update 使用
+
 ## 首条评论 / Launch Note
 
 ```text

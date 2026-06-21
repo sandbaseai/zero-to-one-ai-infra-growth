@@ -70,6 +70,12 @@ Screenshot rules:
 - no private workspace, account, token, billing, or email information
 - first screenshot should communicate the product category in under 3 seconds
 
+Generated social visual:
+
+- [LinkedIn Uneed Agent Infrastructure Card](../assets/generated-images/linkedin-uneed-agent-infra.png)
+- Generated through `scripts/generate-images-sandbase.py --only linkedin-uneed-agent-infra`
+- Purpose: LinkedIn company post visual for the Uneed preparation update
+
 ## First Comment / Launch Note
 
 ```text
