@@ -72,6 +72,15 @@ Production agents need somewhere reliable to run.
 ```
 - Discord：
   - 继续保持日常存在感：小更新、问题、轻互动，而不是重推广。
+  - 根据今天 X 上的讨论，在 `#agent-runtime` 发了一条 follow-up：
+    - production agents 通常坏在 runtime 边界
+    - tool calls 需要 permission 和 isolation
+    - browser / shell / file access 需要 sandbox
+    - long-running tasks 需要 durable state
+    - bursty workloads 需要 scheduling
+    - failures 需要 observability 和 replay
+  - 向 builders 追问：最先坏掉的通常是 tool safety、state、cost / latency，还是 observability。
+  - 在 `#builder-chat` 对之前的轻量用户回复做了跟进，询问对方现在探索的是 runtime、tools、sandboxing、model routing 还是 deployment。
 - 账号卫生：
   - LinkedIn 发帖后检查并加固了运营账号隐私。
 
@@ -80,6 +89,8 @@ Production agents need somewhere reliable to run.
 - LinkedIn 配图：[linkedin-uneed-agent-infra.png](../../assets/generated-images/linkedin-uneed-agent-infra.png)
 - LinkedIn 公司页：https://www.linkedin.com/company/sandbaseai/
 - X 观点动态：https://x.com/SandbaseAI/status/2068531079229874614
+- Discord `#agent-runtime`：已发布 runtime-boundary 日常讨论
+- Discord `#builder-chat`：已发送轻量 follow-up
 - Uneed 草稿 slug 已准备：`sandbase`
 
 ## 问题 / 阻塞
@@ -87,6 +98,7 @@ Production agents need somewhere reliable to run.
 - 等 LinkedIn 页面稳定后，可以补充最终 post 详情链接。
 - 明天要决定 LinkedIn 下一条内容写 Agent Ecosystem、Hackathon Support，还是 agents 为什么需要 sandboxed runtime。
 - X 互动质量比互动数量更重要。避开泛 AI 赚钱、prompt 课程、roadmap、纯 engagement bait 的内容。
+- Discord 不要每天重复同一个大问题。要把外部讨论沉淀成更具体的 follow-up 问题。
 
 ## 经验
 
@@ -107,6 +119,12 @@ X 的运营规则应该是：
 ```
 
 这个账号应该像一个正在认真做 agent infrastructure 的团队，而不是追求曝光的增长号。
+
+Discord 不要只做每日公告，而应该成为一个小反馈循环：
+
+```text
+外部讨论 -> 内部问题 -> 用户回复 -> docs / product / content idea
+```
 
 ## 下一步
 

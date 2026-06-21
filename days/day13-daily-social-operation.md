@@ -72,6 +72,15 @@ Production agents need somewhere reliable to run.
 ```
 - Discord:
   - Continued the daily presence pattern: small updates, questions, and lightweight engagement instead of heavy promotion.
+  - Posted a follow-up in `#agent-runtime` based on today's X discussions:
+    - production agents fail at runtime boundaries
+    - tool calls need permission and isolation
+    - browser / shell / file access needs a sandbox
+    - long-running tasks need durable state
+    - bursty workloads need scheduling
+    - failures need observability and replay
+  - Asked builders whether the first failure is usually tool safety, state, cost / latency, or observability.
+  - Replied in `#builder-chat` to a prior lightweight user response and asked what area they are exploring: runtime, tools, sandboxing, model routing, or deployment.
 - Account hygiene:
   - LinkedIn operating-account privacy was reviewed and tightened after posting.
 
@@ -80,6 +89,8 @@ Production agents need somewhere reliable to run.
 - LinkedIn visual: [linkedin-uneed-agent-infra.png](../assets/generated-images/linkedin-uneed-agent-infra.png)
 - LinkedIn company page: https://www.linkedin.com/company/sandbaseai/
 - X opinion post: https://x.com/SandbaseAI/status/2068531079229874614
+- Discord `#agent-runtime`: daily runtime-boundary discussion posted
+- Discord `#builder-chat`: lightweight follow-up sent
 - Uneed draft slug prepared: `sandbase`
 
 ## Questions / Blockers
@@ -87,6 +98,7 @@ Production agents need somewhere reliable to run.
 - Need to get the final LinkedIn post URL after the page finishes indexing or once the post detail URL is copied.
 - Need to decide whether the next LinkedIn post should be about Agent Ecosystem, Hackathon Support, or the technical reason agents need sandboxed runtime.
 - X interaction quality matters more than interaction count. Avoid generic AI income, prompt-course, or engagement-bait threads.
+- Discord should not repeat the same broad question every day. Turn external learning into sharper follow-up questions.
 
 ## Lesson
 
@@ -107,6 +119,12 @@ Reply only when SandBase can add a real engineering perspective.
 ```
 
 The account should feel like a team building agent infrastructure, not like a growth account chasing impressions.
+
+For Discord, do not post daily announcements only. Use the server as a small feedback loop:
+
+```text
+external discussion -> internal question -> user reply -> docs/product/content idea
+```
 
 ## Next Action
 
