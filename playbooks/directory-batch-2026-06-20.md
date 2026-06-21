@@ -195,6 +195,10 @@ Launch assets to prepare before scheduling:
 - Discord update
 - short founder/product reply plan
 
+Prepared launch asset draft:
+
+- [Uneed Launch Assets](uneed-launch-assets.md)
+
 ## Browser Attempt Log
 
 Attempted to open:
