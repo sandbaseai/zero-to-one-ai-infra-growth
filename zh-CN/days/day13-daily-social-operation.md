@@ -81,6 +81,14 @@ Production agents need somewhere reliable to run.
     - failures 需要 observability 和 replay
   - 向 builders 追问：最先坏掉的通常是 tool safety、state、cost / latency，还是 observability。
   - 在 `#builder-chat` 对之前的轻量用户回复做了跟进，询问对方现在探索的是 runtime、tools、sandboxing、model routing 还是 deployment。
+- Peerlist：
+  - 参与了一条关于 autonomous personal agent 的活跃讨论，该项目涉及 persistent memory、identity、permissions 和 multi-agent infrastructure。
+  - 留下了一条建设性技术评论，而不是推广 SandBase：
+    - identity + long-term memory 很有潜力
+    - 关键 proof point 是 permission boundaries
+    - 需要说明 agent 被允许记住什么、访问什么、长期改变什么
+    - 如果能展示 memory lifecycle 或 tool-permission demo，会更容易让人评估项目价值
+  - 这和 SandBase 的 runtime、tool access、sandboxing、production trust 定位一致，但没有强行放链接。
 - 账号卫生：
   - LinkedIn 发帖后检查并加固了运营账号隐私。
 
@@ -91,6 +99,7 @@ Production agents need somewhere reliable to run.
 - X 观点动态：https://x.com/SandbaseAI/status/2068531079229874614
 - Discord `#agent-runtime`：已发布 runtime-boundary 日常讨论
 - Discord `#builder-chat`：已发送轻量 follow-up
+- Peerlist 评论：https://peerlist.io/scroll/post/ACTHKKD9EGGK77GDN1LQ6KJNBPMPRB
 - Uneed 草稿 slug 已准备：`sandbase`
 
 ## 问题 / 阻塞
@@ -99,6 +108,7 @@ Production agents need somewhere reliable to run.
 - 明天要决定 LinkedIn 下一条内容写 Agent Ecosystem、Hackathon Support，还是 agents 为什么需要 sandboxed runtime。
 - X 互动质量比互动数量更重要。避开泛 AI 赚钱、prompt 课程、roadmap、纯 engagement bait 的内容。
 - Discord 不要每天重复同一个大问题。要把外部讨论沉淀成更具体的 follow-up 问题。
+- Peerlist 对早期技术可见度有帮助，但前提是评论真的能帮对方把项目讲清楚，而不是把流量拉走。
 
 ## 经验
 
@@ -124,6 +134,12 @@ Discord 不要只做每日公告，而应该成为一个小反馈循环：
 
 ```text
 外部讨论 -> 内部问题 -> 用户回复 -> docs / product / content idea
+```
+
+Peerlist 的互动标准应该接近一条认真写的 GitHub issue comment：
+
+```text
+具体上下文 -> 技术观察 -> 下一步可验证的 proof point
 ```
 
 ## 下一步
