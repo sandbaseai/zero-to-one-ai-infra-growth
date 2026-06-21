@@ -70,13 +70,20 @@ SandBase is agent infrastructure for developers building production AI agents.
 
 ### 备选：DevHunt
 
-费用状态：暂未确认。
+费用状态：已观察到付费 launch week。当前 launch week 显示 `$49`，超过 30 美金预算。
 
 原因：
 
 - 更偏开发者工具
 - 比泛 AI 工具目录更适合
 - 可以突出 runtime、sandboxing、tools、models
+
+仅在以下情况继续：
+
+- 找到免费 listing 路径，或
+- 明确调整预算规则。
+
+不要使用个人 profile 信息。如果 DevHunt 从 Google 账号自动生成 account/profile 字段，提交任何 tool 前先把公开可见字段改成 SandBase 公司口径。
 
 ### 暂缓
 
@@ -88,6 +95,9 @@ SandBase is agent infrastructure for developers building production AI agents.
 
 - 付费目录包
   暂时跳过，除非渠道有明确开发者相关性，并且付费价值足够清楚。
+
+- DevHunt 付费 launch
+  当前预算下暂缓，因为已观察到 launch week 为 `$49`，超过 30 美金上限。
 
 ## 产品名
 

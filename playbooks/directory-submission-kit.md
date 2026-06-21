@@ -70,13 +70,20 @@ SandBase is agent infrastructure for developers building production AI agents.
 
 ### Fallback: DevHunt
 
-Cost status: unconfirmed.
+Cost status: paid launch week observed. Launch weeks showed `$49`, above the current $30 cap.
 
 Why:
 
 - developer-tool oriented
 - better fit than broad AI tool directories
 - useful if the profile can highlight runtime, sandboxing, tools, and models
+
+Use only if:
+
+- a free listing path is found, or
+- the budget rule is explicitly changed.
+
+Do not use personal profile information. If DevHunt creates account/profile fields from Google, change visible public fields to SandBase company information before submitting any tool.
 
 ### Wait For Later
 
@@ -88,6 +95,9 @@ Why:
 
 - Paid directory packages
   Skip for now unless the channel has clear developer relevance and the paid value is obvious.
+
+- DevHunt paid launch
+  Skip under the current budget because observed launch weeks are `$49`, above the $30 cap.
 
 ## Product Name
 

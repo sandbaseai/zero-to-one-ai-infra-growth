@@ -1,6 +1,6 @@
 # 外部目录批次 — 2026-06-20
 
-状态：已准备
+状态：第一次执行后已更新
 
 目标：准备 2-3 个可信外部目录 / profile，并在人确认后发布 1 个。
 
@@ -79,11 +79,30 @@ Launch 前确认：
 
 优先级：P1
 
-状态：素材已准备，浏览器打开需要重试
+状态：素材已准备，但暂不提交
 
-费用状态：暂未确认。如果提交前出现付费步骤，必须先人工确认。
+费用状态：已观察到付费 launch week。当前可选 launch week 显示 `$49`，超过 30 美金预算。
 
-预算规则：只在免费或低于 30 美金时继续；最终提交或购买前必须人工确认。
+预算规则：当前 30 美金预算下不继续 launch。只有发现免费 listing 路径，或预算规则明确变化后再继续。
+
+当前结果：
+
+- 用户完成 Google 登录。
+- DevHunt account/profile 字段已从个人信息改成 SandBase 公司口径：
+  - `SandBase AI`
+  - `sandbaseai`
+  - `https://www.linkedin.com/company/sandbaseai/`
+  - 公司 bio 聚焦 agent infrastructure
+- 已打开 New tool 表单。
+- 已准备 SandBase 产品字段：
+  - tool name: `SandBase`
+  - slogan: `Agent infrastructure for production AI agents`
+  - website: `https://www.sandbase.ai`
+  - GitHub: `https://github.com/sandbaseai`
+  - description 聚焦 sandboxed execution、safe tool access、model routing、APIs、distributed compute
+- 没有选择 launch week。
+- 没有付费提交。
+- 没有公开提交 DevHunt launch。
 
 为什么选它：
 
@@ -107,12 +126,14 @@ SandBase helps teams build production AI agents with infrastructure for sandboxe
 
 - 如果平台只有很泛的 AI tool 分类，不要急着提交。
 - 不使用夸张 launch 文案。
+- 不使用个人 profile 字段，所有可见 account/profile 字段保持公司口径。
+- 除非预算规则明确改变，否则不 schedule `$49` launch。
 
 ## 目标 3 — Uneed
 
 优先级：P2
 
-状态：后续准备
+状态：waiting line 草稿已保存
 
 费用状态：新产品排队发布有免费选项，同时存在付费项。
 
@@ -125,6 +146,22 @@ SandBase helps teams build production AI agents with infrastructure for sandboxe
 - Existing product relaunch：$15
 - Uneed Pro：当前 early-bird 年付 $89
 - Auto-submit to 100+ directories：$249
+
+当前结果：
+
+- 已在 Uneed waiting-line editor 创建产品草稿。
+- 草稿保存成功，Uneed 页面提示 `Product updated`。
+- 已检查 preview。
+- 草稿字段：
+  - name: `SandBase`
+  - slug: `sandbase`
+  - URL: `https://www.sandbase.ai`
+  - category: `Development`
+  - pricing: `Freemium`
+  - tags: `API & Data`, `AI`, `Development`
+  - tagline: `Agent infrastructure for developers building production AI agents.`
+- 没有使用付费的 `Submit to 100+ directories`。
+- 暂时没有安排 launch 日期。
 
 为什么选它：
 
@@ -147,8 +184,16 @@ SandBase is building infrastructure for the emerging agent ecosystem: runtimes, 
 注意：
 
 - 不要变成泛 AI 工具 listing。
-- 等 Peerlist 或 DevHunt 后再判断是否提交。
+- 等 launch assets 准备好后再 schedule。
 - 只使用免费排队，除非明确确认付费升级。
+
+排期前需要准备：
+
+- 干净的产品截图
+- 首条评论 / launch note
+- X 和 LinkedIn 支持文案
+- Discord 更新
+- 简短 founder/product 回复计划
 
 ## 浏览器尝试记录
 
@@ -159,15 +204,15 @@ SandBase is building infrastructure for the emerging agent ecosystem: runtimes, 
 
 结果：
 
-- 两个页面在内置浏览器里都超时
-- 没有提交表单
-- 没有产生公开副作用
+- Peerlist profile 已完成到足够支持 profile/backlink 目标。
+- Uneed 草稿已保存。
+- DevHunt 文案已准备，但因为 launch 价格 `$49` 暂停。
+- 没有任何付费动作。
 
 下一步：
 
 ```text
-Peerlist 先作为今天已完成的 profile link 收口。
-继续推进 DevHunt 或 Uneed 作为下一个目录目标。
-Codex 使用已准备文案填写表单。
-最终提交或付费前由人确认。
+准备 Uneed launch assets。
+复查 DevHunt 是否存在免费 listing 路径。
+当前 30 美金预算下，不为 DevHunt 付费 launch。
 ```

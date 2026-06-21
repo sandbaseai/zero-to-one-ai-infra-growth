@@ -1,6 +1,6 @@
 # Directory Batch — 2026-06-20
 
-Status: Prepared
+Status: Updated after first execution pass
 
 Goal: prepare 2-3 credible external directory/profile targets and publish one after human confirmation.
 
@@ -79,11 +79,30 @@ Launch only after:
 
 Priority: P1
 
-Status: prepared, browser opening needs retry
+Status: prepared but not submitted
 
-Cost status: unconfirmed. Do not submit if a paid step appears before human approval.
+Cost status: paid launch week observed. Available launch weeks showed `$49`, which is above the current $30 budget.
 
-Budget rule: only continue if free or under $30; final submit/purchase requires human confirmation.
+Budget rule: do not continue to launch under the current $30 cap. Revisit only if a free listing path is found or the budget decision changes.
+
+Current result:
+
+- Google login completed by the user.
+- DevHunt account/profile fields were changed away from personal information and into SandBase company information:
+  - `SandBase AI`
+  - `sandbaseai`
+  - `https://www.linkedin.com/company/sandbaseai/`
+  - company bio focused on agent infrastructure
+- New tool form opened.
+- SandBase product fields were prepared:
+  - tool name: `SandBase`
+  - slogan: `Agent infrastructure for production AI agents`
+  - website: `https://www.sandbase.ai`
+  - GitHub: `https://github.com/sandbaseai`
+  - description focused on sandboxed execution, safe tool access, model routing, APIs, and distributed compute
+- No launch week selected.
+- No paid submit happened.
+- No public DevHunt launch submitted.
 
 Why this channel:
 
@@ -107,12 +126,14 @@ Use carefully:
 
 - If the platform only supports broad AI tool categories, avoid over-submitting.
 - Do not use hype-heavy launch language.
+- Do not use personal profile fields. Keep all visible account/profile fields company-oriented.
+- Do not schedule a `$49` launch unless the budget rule is explicitly changed.
 
 ## Target 3 — Uneed
 
 Priority: P2
 
-Status: prepared for later
+Status: draft saved in waiting line
 
 Cost status: free option available for a new product launch queue; paid options exist.
 
@@ -125,6 +146,22 @@ Observed pricing:
 - Existing product relaunch: $15
 - Uneed Pro: $89/year early-bird at time of check
 - Auto-submit to 100+ directories: $249
+
+Current result:
+
+- Product draft created in Uneed waiting-line editor.
+- Draft saved successfully; Uneed showed `Product updated`.
+- Preview checked.
+- Draft fields:
+  - name: `SandBase`
+  - slug: `sandbase`
+  - URL: `https://www.sandbase.ai`
+  - category: `Development`
+  - pricing: `Freemium`
+  - tags: `API & Data`, `AI`, `Development`
+  - tagline: `Agent infrastructure for developers building production AI agents.`
+- No paid `Submit to 100+ directories` action used.
+- No launch date scheduled yet.
 
 Why this channel:
 
@@ -147,8 +184,16 @@ Category preference:
 Use carefully:
 
 - This should not become a generic AI tools listing.
-- Submit after Peerlist or DevHunt if the profile quality looks acceptable.
+- Schedule only after launch assets are ready.
 - Use the free queue only unless a paid upgrade is explicitly approved.
+
+Launch assets to prepare before scheduling:
+
+- clean product screenshots
+- first comment / launch note
+- X and LinkedIn support posts
+- Discord update
+- short founder/product reply plan
 
 ## Browser Attempt Log
 
@@ -159,15 +204,15 @@ Attempted to open:
 
 Result:
 
-- both pages timed out in the in-app browser session
-- no form was submitted
-- no public side effect occurred
+- Peerlist profile was completed enough for a profile/backlink goal.
+- Uneed draft was saved.
+- DevHunt was prepared but paused because launch pricing is `$49`.
+- no paid action occurred
 
 Next action:
 
 ```text
-Peerlist is accepted as today's completed profile link.
-Move to DevHunt or Uneed for the next directory attempt.
-Codex fills any form with the prepared copy.
-Human confirms before final submission or payment.
+Prepare launch assets for Uneed.
+Re-check whether DevHunt has a free listing path.
+Do not pay for DevHunt under the current $30 cap.
 ```
