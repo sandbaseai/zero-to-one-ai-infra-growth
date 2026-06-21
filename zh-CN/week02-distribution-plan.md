@@ -102,6 +102,7 @@ Day 9-14 的日志执行时补充：
 每天重复执行的流程见：
 
 - [第 2 周每日运营 SOP](playbooks/daily-operations-sop-week02.md)
+- [每日开源机会挖掘 SOP](playbooks/open-source-opportunity-sourcing.md)
 
 ## 第 2 周北极星
 

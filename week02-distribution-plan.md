@@ -102,6 +102,7 @@ Each Day 9-14 log should be updated during execution with:
 For the repeatable daily workflow, use:
 
 - [Daily Operations SOP — Week 2](playbooks/daily-operations-sop-week02.md)
+- [Open Source Opportunity Sourcing SOP](playbooks/open-source-opportunity-sourcing.md)
 
 ## Week 2 North Star
 
