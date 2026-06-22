@@ -16,6 +16,36 @@
 
 ## 每日 Checklist
 
+### 0. 渠道巡检
+
+时间盒：10-15 分钟
+
+检查 SandBase 已经运营的渠道：
+
+- X
+  - notifications
+  - mentions
+  - 最近动态的回复
+  - 2-3 个高质量主题搜索
+- LinkedIn
+  - 公司页通知
+  - 最近动态评论
+  - 是否需要发公司页更新
+- Discord
+  - `#agent-runtime`
+  - `#builder-chat`
+  - 是否有新回复或新介绍
+- Peerlist
+  - notifications
+  - SandBase profile / posts 评论
+  - 相关 Scroll 讨论
+- DevHunt
+  - account / profile 状态
+  - tool draft 状态
+  - 是否出现免费 listing path 或 pricing 变化
+
+不要强行制造动作。如果某个渠道没有有价值互动，就记录“已检查，无动作”。
+
 ### 1. 检查搜索和网站健康
 
 时间盒：10 分钟

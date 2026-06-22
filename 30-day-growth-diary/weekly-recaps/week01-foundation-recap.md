@@ -2,7 +2,7 @@
 
 Date: 2026-06-19
 
-![Week 1 trust foundation](assets/generated-images/week01-foundation.png)
+![Week 1 trust foundation](../../assets/generated-images/week01-foundation.png)
 
 ## The Short Version
 

@@ -16,6 +16,36 @@ By the end of each day, we should have:
 
 ## Daily Checklist
 
+### 0. Channel Sweep
+
+Time box: 10-15 minutes
+
+Check the channels SandBase already operates:
+
+- X
+  - notifications
+  - mentions
+  - replies to recent posts
+  - 2-3 high-quality topic searches
+- LinkedIn
+  - company page notifications
+  - comments on recent posts
+  - possible company-page update
+- Discord
+  - `#agent-runtime`
+  - `#builder-chat`
+  - any new replies or intros
+- Peerlist
+  - notifications
+  - comments on SandBase profile/posts
+  - relevant Scroll discussions
+- DevHunt
+  - account/profile status
+  - tool draft status
+  - free listing path or pricing changes
+
+Do not force activity. If a channel has no useful interaction, record "checked, no action".
+
 ### 1. Check Search and Site Health
 
 Time box: 10 minutes
