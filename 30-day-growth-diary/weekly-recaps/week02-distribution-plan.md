@@ -101,8 +101,11 @@ Each Day 9-14 log should be updated during execution with:
 
 For the repeatable daily workflow, use:
 
+- [SandBase Daily Growth SOP](../../playbooks/sandbase-daily-growth-sop.md)
 - [Daily Operations SOP — Week 2](../../playbooks/daily-operations-sop-week02.md)
 - [Open Source Opportunity Sourcing SOP](../../playbooks/open-source-opportunity-sourcing.md)
+
+Note: after Day 18, the current primary execution system is the SandBase Daily Growth SOP. The Week 2 SOP remains useful as historical context and channel-specific reference.
 
 ## Week 2 North Star
 

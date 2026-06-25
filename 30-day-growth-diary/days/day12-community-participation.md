@@ -1,10 +1,10 @@
 # Day 12 — Community Participation Without Link Spam
 
-Date: TBD
+Date: 2026-06-22
 
 Stage: Week 2 — Distribution and daily operations
 
-Status: Planned
+Status: Archived plan — later covered by Day 13, Day 15, and Day 16 interactions
 
 ## Goal
 
@@ -36,20 +36,30 @@ Find relevant developer discussions and participate with useful context before s
 
 ## Execution Log
 
-To be filled during execution.
+- This day was planned as a community-participation day without link spam.
+- The actual community work was spread across later logs:
+  - Day 13: X, LinkedIn, and Discord social operation loop
+  - Day 15: Peerlist, X, LinkedIn, Discord, DEV.to, GitHub organization profile, and directory checks
+  - Day 16: X replies, GitHub issue comments, LinkedIn post, Discord prompt, and runtime-control-plane interactions
+- Decision: keep this file as the original plan and use the later day logs as the execution record.
 
 ## Links Created Or Updated
 
-To be filled during execution.
+- Day 13 execution record:
+  - `30-day-growth-diary/days/day13-daily-social-operation.md`
+- Day 15 execution record:
+  - `30-day-growth-diary/days/day15-open-source-opportunity-sourcing.md`
+- Day 16 execution record:
+  - `30-day-growth-diary/days/day16-runtime-control-plane-interactions.md`
 
 ## Questions / Blockers
 
-To be filled during execution.
+- Some profile and directory surfaces were blocked by login, pricing, bot protection, or unstable browser rendering.
 
 ## Lesson
 
-To be filled after execution.
+- Community participation should be measured by useful replies, questions, and follow-ups, not by the number of links posted.
 
 ## Next Action
 
-To be filled after execution.
+- Continue using `playbooks/sandbase-daily-growth-sop.md` for daily reply-first community work.

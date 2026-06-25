@@ -39,9 +39,14 @@ What you can copy:
 If you are new here, start with:
 
 - [Daily Command Center](daily-command-center.md)
+- [SandBase Daily Growth SOP](playbooks/sandbase-daily-growth-sop.md)
+- [30-Day Completion Plan](30-day-growth-diary/30-day-completion-plan.md)
+- [Manual Quality Check](30-day-growth-diary/manual-quality-check.md)
 - [30-Day Growth Diary](30-day-growth-diary/)
 - [Overseas Builders Outreach](overseas-builders-outreach/)
 - [Hackathon Sponsorship](hackathon-sponsorship/)
+- [Week 3 plan — Open-source growth base](30-day-growth-diary/weekly-recaps/week03-open-source-growth-base.md)
+- [Week 4 plan — Launch readiness and 30-day recap](30-day-growth-diary/weekly-recaps/week04-launch-readiness-and-recap.md)
 - [Week 1 recap — Building the trust foundation before distribution](30-day-growth-diary/weekly-recaps/week01-foundation-recap.md)
 - [Week 2 plan — Distribution and daily operations](30-day-growth-diary/weekly-recaps/week02-distribution-plan.md)
 - [Day 1 — Before content, make sure Google can see the site](30-day-growth-diary/days/day01-seo-audit.md)
@@ -232,8 +237,8 @@ Sensitive account details, private emails, tokens, billing data, and private con
 |------|-------|-------|
 | Week 1 | Foundation | Website, SEO, blog, GitHub, X, Discord, LinkedIn, basic operating environment |
 | Week 2 | Distribution | Directory submissions, Dev.to, social/community distribution, issue logging |
-| Week 3 | Content moat | Turn user questions and operations learnings into technical content clusters |
-| Week 4 | Authority and conversion | Landing pages, outreach, pillar content, conversion paths |
+| Week 3 | Open-source growth base | Awesome Agent Runtime, ecosystem maps, sandbox/runtime clusters, MCP/tool protocol clusters |
+| Week 4 | Launch readiness and recap | External profiles, website trust surfaces, launch assets, metrics, and final 30-day case study |
 
 ## Visual Index
 
@@ -298,49 +303,52 @@ Success criteria:
 - every day produces at least one recorded learning, question, or content idea
 - social/community actions create conversation, not just links
 
-### Week 3 — Problem-Driven Content Clusters
+### Week 3 — Open-Source Growth Base
 
 Goal:
 
-Turn the questions, objections, and repeated issues from Week 2 into structured content clusters.
+Turn SandBase's open-source work into the main trust and distribution engine.
 
 Deliverables:
 
-- publish or refine content around agent runtime
-- publish or refine content around sandboxed execution
-- publish or refine content around tools and MCP
-- publish or refine content around model routing
-- publish or refine content around observability, guardrails, and production reliability
-- strengthen internal links between blog, docs, homepage, Discord, and future landing pages
-- convert Discord/social questions into blog topics, docs improvements, or FAQ entries
+- prepare `awesome-agent-runtime` for external contributors
+- announce the 500-project agent infrastructure map
+- publish or prepare an execution sandbox content cluster
+- publish or prepare an MCP/tool protocol content cluster
+- prepare maintainer outreach drafts and interaction rules
+- create generated PNG assets for social distribution
+- keep public posting behind human confirmation
 
 Success criteria:
 
-- each core topic has multiple supporting articles
-- every article has a clear search intent and internal link path
-- Search Console begins showing early impressions for relevant agent infrastructure terms
-- the blog and docs feel like answers to real developer problems, not random AI news
+- the open-source entry project is ready for community submissions
+- Day 18-20 assets are prepared with clear publication checklists
+- maintainer interactions are specific and non-spammy
+- the repo and social assets explain SandBase's agent infrastructure positioning without overclaiming
 
-### Week 4 — Authority and Conversion
+### Week 4 — Launch Readiness And 30-Day Recap
 
 Goal:
 
-Convert the first three weeks of setup, distribution, and problem discovery into authority pages, stronger CTAs, and targeted outreach.
+Close the first cold-start cycle and make the public surfaces ready for the next phase.
 
 Deliverables:
 
-- publish `/agent-infrastructure` landing page
-- publish `/ai-agent-sandbox` landing page
-- create pillar content for the full agent infrastructure stack
-- start targeted outreach to newsletters, technical bloggers, and ecosystem projects
-- improve conversion paths to Discord, docs, contact, and quickstart
+- clean up external profiles and backlink surfaces
+- review SandBase.ai trust surfaces, footer links, docs, blog, status page, and social links
+- prepare Product Hunt or launch-surface assets without forcing launch
+- start the community submission loop for open-source projects
+- collect metrics, lessons, questions, and channel decisions
+- draft or publish the final 30-day case study
+- define the next 30-day theme: from public trust to developer adoption
 
 Success criteria:
 
-- at least 3-5 clear conversion paths exist
-- pillar content becomes the internal link hub
-- outreach is targeted and specific, not generic
-- SandBase's public positioning is consistent across website, blog, GitHub, social, and community
+- website, GitHub, X, LinkedIn, DEV.to, Discord, and external profiles tell one consistent story
+- launch assets are realistic and ready for a go/no-go decision
+- metrics are recorded without inflated claims
+- the final recap is useful to another founder or builder
+- the next 30-day operating theme is clear
 
 ## Series Structure
 

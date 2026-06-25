@@ -106,6 +106,34 @@ CARDS = [
         "Style: calm technical editorial, off-white background, black text, muted gray panels, teal accents, subtle grid, professional LinkedIn-ready design, large readable typography. "
         "Avoid: tiny text, fake dashboards, private data, real platform logos, stock-photo people, cartoon mascots, neon cyberpunk, excessive gradients, hype claims, misspellings.",
     ),
+    (
+        "agent-sandbox-runtime-checklist",
+        "Create a polished 1600x900 editorial infographic for a B2B developer infrastructure article. "
+        "Text: 'Agent Sandbox Runtime Checklist' and 'Before, during, and after execution.' "
+        "Show a clean technical diagram with three horizontal stages: Before Execution, During Execution, After Execution. "
+        "Under the stages, include six readable nodes: Capabilities, Filesystem, Network, Lifecycle, Audit, Integration. "
+        "Use subtle connections between stages to imply runtime verification. "
+        "Style: calm technical editorial, off-white background, black text, muted gray panels, teal accents, subtle grid, professional article header image, large readable typography. "
+        "Avoid: tiny text, fake dashboards, fake metrics, real platform logos, stock-photo people, cartoon mascots, neon cyberpunk, excessive gradients, hype claims, misspellings.",
+    ),
+    (
+        "day16-runtime-control-plane",
+        "Create a polished 1600x900 LinkedIn infographic for a B2B developer infrastructure company. "
+        "Text: 'Runtime Control Plane' and 'Sandboxing is useful when it is observable.' "
+        "Show a clean technical architecture diagram with a central Agent Runtime box connected to four readable control-plane signals: Policy Version, Sandbox Boundary, Audit Trace, Cleanup & Replay. "
+        "Add a subtle lower caption: 'Before execution. During execution. After failure.' "
+        "Style: calm technical editorial, off-white background, black text, muted gray panels, teal accents, subtle grid, professional LinkedIn-ready design, large readable typography. "
+        "Avoid: tiny text, fake dashboards, fake metrics, real platform logos, stock-photo people, cartoon mascots, neon cyberpunk, excessive gradients, hype claims, misspellings.",
+    ),
+    (
+        "day18-500-agent-runtime-map",
+        "Create a polished 1600x900 LinkedIn and X infographic for a B2B developer infrastructure company. "
+        "Text: '500 AI Agent Infrastructure Projects' and 'A map of the production agent stack.' "
+        "Show a clean radial or layered technical map with ten readable category labels: Agent Runtime, Execution Sandbox, Browser Automation, Tool Protocol, App Integrations, Memory/Context, Safety/Evals, Model Gateway, Observability, Deployment/Compute. "
+        "Place 'Awesome Agent Runtime' as the central title node and include a small footer: 'github.com/sandbaseai/awesome-agent-runtime'. "
+        "Style: calm technical editorial, off-white background, black text, muted gray panels, teal accents, subtle grid, professional open-source announcement image, large readable typography. "
+        "Avoid: tiny text, fake dashboards, fake metrics, real platform logos, stock-photo people, cartoon mascots, neon cyberpunk, excessive gradients, hype claims, misspellings.",
+    ),
 ]
 
 
@@ -169,11 +197,7 @@ def save_image(name: str, image: str) -> Path:
     return path
 
 
-def generate_one(name: str, prompt: str) -> Path:
-    submitted = request_json("POST", f"{BASE}/run", {"model": "openai/gpt-image-2", "prompt": prompt})
-    run_id = submitted["id"]
-    print(f"{name}: submitted {run_id}")
-
+def wait_for_run(name: str, run_id: str) -> Path:
     while True:
         result = request_json("GET", f"{BASE}/run/{run_id}")
         status = result.get("status")
@@ -194,14 +218,32 @@ def generate_one(name: str, prompt: str) -> Path:
     return save_image(name, images[0])
 
 
+def generate_one(name: str, prompt: str) -> Path:
+    submitted = request_json("POST", f"{BASE}/run", {"model": "openai/gpt-image-2", "prompt": prompt})
+    run_id = submitted["id"]
+    print(f"{name}: submitted {run_id}")
+    return wait_for_run(name, run_id)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--only", action="append", default=[], help="Generate only the named card. Can be repeated.")
+    parser.add_argument("--resume-run-id", help="Poll an existing SandBase run id and save it with --resume-name.")
+    parser.add_argument("--resume-name", help="Output basename to use with --resume-run-id.")
     args = parser.parse_args()
 
     if not API_KEY:
         print("SANDBASE_API_KEY is missing. Set it in the environment and rerun.", file=sys.stderr)
         return 2
+
+    if args.resume_run_id:
+        if not args.resume_name:
+            print("--resume-name is required with --resume-run-id.", file=sys.stderr)
+            return 2
+        path = wait_for_run(args.resume_name, args.resume_run_id)
+        print("Saved:")
+        print(f"- {path}")
+        return 0
 
     selected = CARDS
     if args.only:

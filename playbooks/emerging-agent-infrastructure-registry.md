@@ -177,3 +177,99 @@ Curate for future signal, not volume.
 ```
 
 The registry should make SandBase look like an ecosystem organizer, not a directory operator.
+
+## Candidate Batches
+
+- [GitHub Ecosystem Candidates — 2026-06-24](github-ecosystem-candidates-2026-06-24.md)
+
+## Reviewed Project Cards
+
+### Azure/kars
+
+| Field | Value |
+|-------|-------|
+| Name | Azure/kars |
+| One-line description | Kubernetes agent reference stack for governed agent runtime, tool policy, egress control, and hardened per-agent sandboxes. |
+| Category | Agent Runtimes |
+| Stage | growing |
+| Why it matters | Shows agent runtime problems as Kubernetes control-plane problems: policy compilation, router reload, egress approval, and sandbox isolation. |
+| Future signal | Agent infrastructure is moving toward explicit policy/control-plane APIs rather than one-off tool wrappers. |
+| SandBase fit | runtime / sandbox / tooling / observability |
+| Integration potential | high |
+| Links | https://github.com/Azure/kars |
+| Notes | Track issue #451 for policy freshness. Useful comparison point for SandBase runtime evidence: observed CR generation, compiled policy digest, propagation time, and runtime acknowledgement. |
+
+### ageos-labs/ageos-runtime
+
+| Field | Value |
+|-------|-------|
+| Name | ageos-labs/ageos-runtime |
+| One-line description | Runtime control layer for AI agents with sandboxed local execution and OpenClaw workflow support. |
+| Category | Sandboxes & Computer Use |
+| Stage | emerging |
+| Why it matters | Makes syscall-level hardening and runtime isolation a visible part of agent execution rather than an implicit platform concern. |
+| Future signal | Agent sandboxes will need negative-path validation, not only happy-path execution. |
+| SandBase fit | sandbox / runtime / observability |
+| Integration potential | medium |
+| Links | https://github.com/ageos-labs/ageos-runtime |
+| Notes | Track issue #24 for seccomp validation. A strong comment should focus on positive-path and negative-path regression matrices. |
+
+### kubernetes-sigs/agent-sandbox
+
+| Field | Value |
+|-------|-------|
+| Name | kubernetes-sigs/agent-sandbox |
+| One-line description | Kubernetes SIG project for isolated, stateful workloads and AI agent runtime environments. |
+| Category | Deployment & Compute |
+| Stage | established signal / emerging project |
+| Why it matters | High-authority signal that agent execution environments are becoming an infrastructure category inside Kubernetes. |
+| Future signal | Sandboxed agent workloads may become a first-class scheduling and isolation pattern. |
+| SandBase fit | deployment / compute / sandbox |
+| Integration potential | watch |
+| Links | https://github.com/kubernetes-sigs/agent-sandbox |
+| Notes | Track as an ecosystem anchor. Do not comment until SandBase has concrete compatibility tests or implementation feedback. |
+
+### opensandbox-group/OpenSandbox
+
+| Field | Value |
+|-------|-------|
+| Name | opensandbox-group/OpenSandbox |
+| One-line description | Open sandbox platform with SDKs, Docker-backed execution, and configurable egress/network policy controls. |
+| Category | Sandboxes & Computer Use |
+| Stage | growing |
+| Why it matters | Makes network policy and egress sidecars a concrete operator concern for agent execution environments. |
+| Future signal | Production agent sandboxes need diagnosable network-policy enforcement, including kernel capability checks, DNS redirect behavior, sidecar readiness, and structured failure reasons. |
+| SandBase fit | sandbox / runtime / network policy / observability |
+| Integration potential | medium |
+| Links | https://github.com/opensandbox-group/OpenSandbox |
+| Notes | Track issue #1120 for WSL2 Docker `NetworkPolicy` failure. Comment only if SandBase can add a distinct troubleshooting matrix or compatibility signal beyond existing maintainer analysis. |
+
+### openclaw/openclaw
+
+| Field | Value |
+|-------|-------|
+| Name | openclaw/openclaw |
+| One-line description | Agent runtime / tooling platform with active work around web-tool network access control and egress policy. |
+| Category | Agent Runtimes |
+| Stage | growing |
+| Why it matters | Exposes egress firewall design as a product and security-control question for agent web tools. |
+| Future signal | Agent runtimes will need domain policy, SSRF composition, deny/allow precedence, and audit evidence as first-class runtime controls. |
+| SandBase fit | runtime / network policy / observability / security |
+| Integration potential | medium |
+| Links | https://github.com/openclaw/openclaw |
+| Notes | Track issue #39685. Prepared a comment on enforcement evidence and policy digest acceptance criteria; browser posting was blocked by GitHub page timeouts. |
+
+### ards-project/ard-spec
+
+| Field | Value |
+|-------|-------|
+| Name | ards-project/ard-spec |
+| One-line description | Agent registry / trust-manifest specification discussing runtime governance attestations and governed-agent registry federation. |
+| Category | Observability & Evals |
+| Stage | emerging |
+| Why it matters | Connects agent registries with runtime evidence such as policy hashes, signed tool-call transcripts, and append-only audit records. |
+| Future signal | Agent infrastructure may converge on portable evidence records that prove what policy and runtime were active during execution. |
+| SandBase fit | observability / runtime / registry / governance |
+| Integration potential | watch |
+| Links | https://github.com/ards-project/ard-spec |
+| Notes | Track issue #7. Do not comment until the normative wording draft lands or SandBase has a sharper session-level vs action-level receipt framing. |

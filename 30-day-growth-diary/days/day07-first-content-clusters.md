@@ -6,7 +6,7 @@ Stage: Week 1 — Foundation wrap-up
 
 Status: Completed
 
-![Day 7 social card](../assets/generated-images/day07-trust-system.png)
+![Day 7 social card](../../assets/generated-images/day07-trust-system.png)
 
 ## Context
 

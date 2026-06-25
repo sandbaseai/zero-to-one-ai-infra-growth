@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Agent Sandbox Runtime Checklist">
+  <rect width="1600" height="900" fill="#f3f1ea"/>
+  <path d="M0 0h1600v900H0z" fill="#f3f1ea"/>
+  <g opacity="0.42" stroke="#d8dedb" stroke-width="1">
+    <path d="M0 0v900"/><path d="M100 0v900"/><path d="M200 0v900"/><path d="M300 0v900"/><path d="M400 0v900"/><path d="M500 0v900"/><path d="M600 0v900"/><path d="M700 0v900"/><path d="M800 0v900"/><path d="M900 0v900"/><path d="M1000 0v900"/><path d="M1100 0v900"/><path d="M1200 0v900"/><path d="M1300 0v900"/><path d="M1400 0v900"/><path d="M1500 0v900"/><path d="M1600 0v900"/>
+    <path d="M0 0h1600"/><path d="M0 100h1600"/><path d="M0 200h1600"/><path d="M0 300h1600"/><path d="M0 400h1600"/><path d="M0 500h1600"/><path d="M0 600h1600"/><path d="M0 700h1600"/><path d="M0 800h1600"/><path d="M0 900h1600"/>
+  </g>
+  <circle cx="1340" cy="130" r="210" fill="#d8e8e4" opacity="0.72"/>
+  <circle cx="260" cy="760" r="170" fill="#e2e0d7" opacity="0.75"/>
+
+  <rect x="96" y="72" width="1408" height="756" rx="32" fill="#fffdf8" stroke="#d6d1c4" stroke-width="2"/>
+  <rect x="132" y="112" width="230" height="44" rx="22" fill="#111318"/>
+  <text x="156" y="141" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="2" fill="#ffffff">RUNTIME CHECKLIST</text>
+
+  <text x="132" y="255" font-family="Inter, Arial, sans-serif" font-size="74" font-weight="850" fill="#111318">Agent Sandbox Runtime Checklist</text>
+  <text x="136" y="322" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="500" fill="#4e5552">Before, during, and after execution.</text>
+
+  <g>
+    <rect x="132" y="374" width="1336" height="2" fill="#dce2df"/>
+    <circle cx="132" cy="375" r="7" fill="#14b89a"/>
+    <circle cx="1468" cy="375" r="7" fill="#14b89a"/>
+  </g>
+
+  
+    <g>
+      <rect x="225" y="440" width="310" height="72" rx="14" fill="#f8faf9" stroke="#d7dfdc"/>
+      <circle cx="253" cy="476" r="8" fill="#14b89a"/>
+      <text x="273" y="482" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="650" fill="#111318">Capabilities</text>
+    </g>
+
+    <g>
+      <rect x="559" y="440" width="310" height="72" rx="14" fill="#f8faf9" stroke="#d7dfdc"/>
+      <circle cx="587" cy="476" r="8" fill="#14b89a"/>
+      <text x="607" y="482" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="650" fill="#111318">Filesystem</text>
+    </g>
+
+    <g>
+      <rect x="893" y="440" width="310" height="72" rx="14" fill="#f8faf9" stroke="#d7dfdc"/>
+      <circle cx="921" cy="476" r="8" fill="#14b89a"/>
+      <text x="941" y="482" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="650" fill="#111318">Network</text>
+    </g>
+
+    <g>
+      <rect x="225" y="544" width="310" height="72" rx="14" fill="#f8faf9" stroke="#d7dfdc"/>
+      <circle cx="253" cy="580" r="8" fill="#14b89a"/>
+      <text x="273" y="586" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="650" fill="#111318">Lifecycle</text>
+    </g>
+
+    <g>
+      <rect x="559" y="544" width="310" height="72" rx="14" fill="#f8faf9" stroke="#d7dfdc"/>
+      <circle cx="587" cy="580" r="8" fill="#14b89a"/>
+      <text x="607" y="586" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="650" fill="#111318">Audit</text>
+    </g>
+
+    <g>
+      <rect x="893" y="544" width="310" height="72" rx="14" fill="#f8faf9" stroke="#d7dfdc"/>
+      <circle cx="921" cy="580" r="8" fill="#14b89a"/>
+      <text x="941" y="586" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="650" fill="#111318">Integration</text>
+    </g>
+
+  <text x="132" y="780" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600" fill="#111318">Production agents need runtime boundaries operators can inspect.</text>
+  <text x="132" y="812" font-family="Inter, Arial, sans-serif" font-size="18" fill="#6b716e">github.com/sandbaseai/zero-to-one-ai-infra-growth</text>
+</svg>

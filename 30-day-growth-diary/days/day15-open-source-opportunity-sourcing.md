@@ -1,10 +1,10 @@
 # Day 15 — Open Source Opportunity Sourcing
 
-Date: 2026-06-22
+Date: 2026-06-24
 
 Stage: Week 3 — ecosystem building and repeatable distribution
 
-Status: In progress
+Status: Completed
 
 ## Goal
 
@@ -223,6 +223,140 @@ That would be a strong demo. Showing when memory is created, scoped, updated, or
     - `runseal-labs/runseal`: OS-native sandbox layer and stable execution protocol for AI agents.
     - `blissito/sandbox-host`: self-hosted Firecracker microVM platform for AI agent sandboxes and MCP-style sandbox tools.
   - Recommended pick for later build: `runseal-labs/runseal`, because it maps directly to SandBase's sandbox/runtime positioning and can be turned into a small checklist or probe project without becoming too large.
+- Day 15 continuation on 2026-06-24:
+  - Treated the repository task list as the source of truth and continued from the Day 15 open-source opportunity sourcing thread.
+  - Re-checked candidate status through the GitHub API:
+    - `runseal-labs/runseal` is public, Apache-2.0, Rust, and was pushed on 2026-06-24.
+    - `jeremylongshore/agent-governance-plane` is public, Apache-2.0, TypeScript, active on 2026-06-24, and has 5 open issues.
+    - `blissito/sandbox-host` now returns 404 through the GitHub API, so it should not remain an active Day 15 candidate unless the repository becomes public again.
+  - Downloaded the active external candidates into the local workspace for inspection:
+    - `work/external-candidates/runseal`
+    - `work/external-candidates/agent-governance-plane`
+  - Read the Runseal README and confirmed the strongest SandBase-aligned surfaces:
+    - stable execution protocol
+    - `runseal exec --json`
+    - `runseal exec --events`
+    - JSON-RPC stdio
+    - service stdio
+    - `getCapabilities`
+    - `getSetupStatus`
+    - execution and audit event APIs
+    - black-box conformance tests
+  - Read the AGP README and confirmed it is valuable but heavier for Day 15 because it focuses on governance, Slack HITL approval, signed audit journals, Docker sandboxing, and multi-harness control.
+  - Decision:
+    - keep Runseal as the Day 15 pick
+    - treat AGP as a future governance/HITL research candidate
+    - drop `sandbox-host` from the active set for now
+  - Created a Day 15 follow-up brief:
+    - `playbooks/runseal-compatibility-probe.md`
+  - Proposed first build asset:
+    - `agent-sandbox-runtime-probe`
+    - a neutral compatibility checklist and probe case set for agent sandbox runtimes
+    - no hard SandBase promotion until the asset has standalone developer value
+  - Started the first local draft of the proposed asset:
+    - `work/sandbaseai/agent-sandbox-runtime-probe/README.md`
+    - `work/sandbaseai/agent-sandbox-runtime-probe/checklists/runtime-compatibility.md`
+    - `work/sandbaseai/agent-sandbox-runtime-probe/cases/sandbox-runtime-probe.json`
+    - `work/sandbaseai/agent-sandbox-runtime-probe/notes/runseal-observations.md`
+  - Added an API-generated article header image for the runtime checklist draft:
+    - article: `30-day-growth-diary/drafts/agent-sandbox-runtime-compatibility-checklist.md`
+    - generated PNG: `assets/generated-images/agent-sandbox-runtime-checklist.png`
+    - source generator: `scripts/generate-images-sandbase.py`
+    - local SVG fallback also exists at `assets/social-cards/agent-sandbox-runtime-checklist.svg`, but the article uses the API-generated PNG.
+  - Added a SandBase image API prompt to `scripts/generate-images-sandbase.py` for `agent-sandbox-runtime-checklist`.
+    - API run submitted: `7c42b29b-7643-4fa5-bc22-70316ccd003f`
+    - result: completed and saved as `assets/generated-images/agent-sandbox-runtime-checklist.png`
+  - Validated the probe case JSON locally.
+- Social maintenance continuation on 2026-06-24:
+  - X notifications:
+    - Ignored low-signal unrelated reply chains.
+    - Replied to a real community question from `@zatdex55` about what kind of community "alpha" can shape the roadmap beyond bug reports.
+    - Reply angle: SandBase wants signal around permission boundaries, hard-to-debug tool/runtime failures, and traces or approvals that make production agents trustworthy.
+  - X build note:
+    - Published a Day 15 build note about turning agent sandbox research into a runtime compatibility probe.
+    - URL: `https://x.com/SandbaseAI/status/2069684761078194345`
+  - DEV Community:
+    - Checked notifications.
+    - No comments required a reply.
+    - Article received a like from Dimitris Kyrkos.
+    - Account received the `Writing Debut` badge.
+  - LinkedIn company page:
+    - Checked admin dashboard.
+    - Page status: 3 followers, 8 search appearances, 1 new follower, 392 post impressions, 8 page visitors.
+    - Page activity notifications showed 0 new page notifications.
+    - Published a LinkedIn company update about the Day 15 runtime compatibility probe direction.
+  - Discord:
+    - Attempted to open the SandBaseAI server from the browser session.
+    - The Discord page repeatedly caused browser-control timeouts, so no Discord message was posted.
+    - Decision: do not force Discord interaction today without reliable page state.
+- Additional social maintenance continuation on 2026-06-24:
+  - X search:
+    - Searched latest posts around `agent runtime` and `AI agent sandbox`.
+    - Found a relevant post from `@rishflips` about defining a strict contract before giving an AI agent sandbox access.
+    - Replied with two production-runtime additions:
+      - capability discovery before execution
+      - audit shape after a tool call fails or is denied
+    - Kept the reply technical and did not include a SandBase link.
+  - Peerlist:
+    - Attempted to open notifications.
+    - The page caused another browser-control timeout, so no Peerlist interaction was completed in this pass.
+    - Decision: retry later from a stable browser session instead of forcing it.
+- Content and GitHub continuation on 2026-06-24:
+  - Wrote a new technical article draft:
+    - `30-day-growth-diary/drafts/agent-sandbox-runtime-compatibility-checklist.md`
+    - working title: `A Practical Checklist for AI Agent Sandbox Runtimes`
+    - angle: sandboxing should become observable runtime behavior, not a vague security label
+    - includes capability discovery, filesystem boundaries, network boundaries, lifecycle, audit/trace, integration surface, and operational fit
+  - Attempted to publish the article to DEV Community.
+    - DEV editor opened.
+    - Uploaded the SandBase API-generated PNG through the DEV editor so the public article uses a DEV-hosted image URL.
+    - Published URL: `https://dev.to/sandbaseai/a-practical-checklist-for-ai-agent-sandbox-runtimes-4m58`
+    - Tags: `ai`, `security`, `opensource`, `architecture`
+  - Prepared follow-up distribution copy:
+    - `30-day-growth-diary/drafts/runtime-checklist-distribution-copy.md`
+    - channels: X, LinkedIn, Discord/community, Peerlist
+  - Attempted direct browser distribution after publishing:
+    - X intent / compose page repeatedly timed out or failed to retain the tab in the in-app browser session.
+    - LinkedIn company admin page also failed to begin navigation in the in-app browser session.
+    - Decision: do not force posting through unstable browser automation; use the saved copy for a later stable browser pass or screen-control handoff.
+  - User asked to retry specifically with the built-in browser.
+    - The built-in browser reached an owned X compose tab, but X page inspection, screenshot capture, `tweetButton` lookup, keyboard submit, and prefilled intent navigation all timed out or remained stuck at `https://x.com/compose/post`.
+    - Chrome screen-control was intentionally stopped after the user clarified to use the built-in browser.
+  - X article distribution:
+    - The user manually published the X post from the prepared short copy after the built-in browser automation became unreliable.
+    - Status: completed manually.
+    - Tweet URL: not captured in this session.
+  - Discord article distribution:
+    - The built-in browser reached the SandBaseAI Discord channel at `https://discord.com/channels/1516741633310199818/1516742498888843375`.
+    - The user confirmed the Discord post appeared to have been sent.
+    - Status: completed manually / visually confirmed by user.
+    - Message URL: not captured in this session.
+  - LinkedIn / Peerlist continuation:
+    - Attempted to navigate from the built-in browser Discord tab to LinkedIn company admin and Peerlist.
+    - Both attempts remained on the Discord channel URL and did not complete navigation.
+    - Status: pending manual publishing from saved copy.
+  - GitHub ecosystem search:
+    - searched recent projects around `agent sandbox runtime`
+    - discovered / reviewed candidates:
+      - `WasmAgent/wasmagent-js`
+      - `leizd/deepseek`
+      - `finogeeks/finsafe`
+      - `ros-claw/rosclaw`
+      - `runseal-labs/runseal`
+      - `jeremylongshore/agent-governance-plane`
+  - GitHub interaction:
+    - commented on `leizd/deepseek` issue #15 about external MCP server bridging into the local Agent tool surface
+    - comment suggested splitting acceptance into:
+      - capability profile
+      - policy decision
+      - audit trace
+    - comment was written in Chinese to match the issue language
+    - no SandBase link was included
+    - comment URL: `https://github.com/leizd/deepseek/issues/15#issuecomment-4786990208`
+  - Backlink / ecosystem candidate asset:
+    - created `playbooks/github-ecosystem-candidates-2026-06-24.md`
+    - linked it from `playbooks/emerging-agent-infrastructure-registry.md`
+    - decision: prioritize GitHub ecosystem relationship-building over weak directory links
 
 ## Links Created Or Updated
 
@@ -233,8 +367,13 @@ That would be a strong demo. Showing when memory is created, scoped, updated, or
 - GitHub organization README repository: https://github.com/sandbaseai/.github
 - DEV Community profile: https://dev.to/sandbaseai
 - DEV Community published article: https://dev.to/sandbaseai/production-ai-agents-need-a-runtime-layer-2o2a
+- DEV Community published article: https://dev.to/sandbaseai/a-practical-checklist-for-ai-agent-sandbox-runtimes-4m58
 - X distribution post: https://x.com/SandbaseAI/status/2068948735107994092
+- X article distribution post: completed manually; URL not captured
+- Discord article distribution post: completed manually; URL not captured
 - Discord distribution: posted in the public `#agent-runtime` community channel
+- X Day 15 build note: https://x.com/SandbaseAI/status/2069684761078194345
+- LinkedIn Day 15 company update: published from the SandBaseAI company page
 - Candidate: BetaList submit page: https://betalist.com/submit
 - Candidate: Indie Hackers product page: https://www.indiehackers.com/products/new
 - Candidate: Fazier launch page: https://fazier.com/launch
@@ -244,6 +383,12 @@ That would be a strong demo. Showing when memory is created, scoped, updated, or
 - Candidate: https://github.com/jeremylongshore/agent-governance-plane
 - Candidate: https://github.com/runseal-labs/runseal
 - Candidate: https://github.com/blissito/sandbox-host
+- Runseal compatibility probe brief: ../../../playbooks/runseal-compatibility-probe.md
+- Local draft asset: ../../../agent-sandbox-runtime-probe/
+- Article draft: ../drafts/agent-sandbox-runtime-compatibility-checklist.md
+- Distribution copy: ../drafts/runtime-checklist-distribution-copy.md
+- GitHub comment on `leizd/deepseek` #15: https://github.com/leizd/deepseek/issues/15#issuecomment-4786990208
+- GitHub ecosystem candidate batch: ../../../playbooks/github-ecosystem-candidates-2026-06-24.md
 
 ## Questions / Blockers
 
@@ -251,6 +396,8 @@ That would be a strong demo. Showing when memory is created, scoped, updated, or
 - GitHub organization profile README is live.
 - Peerlist Launchpad is still blocked by UI / account state.
 - DevHunt is not a fit today because the launch cost is above the current budget.
+- `blissito/sandbox-host` returned 404 on 2026-06-24 and should be treated as unavailable until it is public again.
+- No public GitHub issue, pull request, or community reply was made for Runseal today. The next interaction should wait until SandBase has a concrete compatibility probe or checklist to share.
 
 ## Lesson
 
@@ -258,11 +405,20 @@ Early community distribution should prioritize useful technical replies over gen
 
 Directory work should not be forced. If the submit page is blocked, expensive, or pushes SandBase into a generic AI-tool category, skip it and preserve positioning. A GitHub organization README can be a better external trust asset than another weak product directory.
 
-Open-source discovery is most useful when it produces one buildable next step. Today's best project direction is a small agent sandbox capability checklist / probe, inspired by the `runseal` direction.
+For Week 3, the better move is to turn ecosystem discovery into small useful assets. Runseal is a good first target because its protocol, capabilities, execution, and audit surfaces make the sandbox-runtime evaluation problem concrete.
 
 ## Next Action
 
-Prepare one small open-source project brief around sandbox capability probes for agent runtimes. Also consider pinning the most relevant GitHub repositories on the organization profile.
+Continue `agent-sandbox-runtime-probe` as the small neutral asset for Day 15:
+
+- refine the runtime compatibility checklist
+- refine JSON probe cases
+- add a simple CLI harness only after the cases are stable
+- only then decide whether to share the result with the Runseal maintainer or community
+
+Open-source discovery is most useful when it produces one buildable next step. Today's best project direction is a small agent sandbox capability checklist / probe, inspired by the `runseal` direction.
+
+## Follow-up Queue
 
 For the next backlink batch, prioritize:
 

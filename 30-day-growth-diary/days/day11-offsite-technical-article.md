@@ -1,10 +1,10 @@
 # Day 11 — Off-Site Technical Article
 
-Date: TBD
+Date: 2026-06-22
 
 Stage: Week 2 — Distribution and daily operations
 
-Status: Planned
+Status: Archived plan — later completed through Day 15 DEV.to publication
 
 ## Goal
 
@@ -35,20 +35,29 @@ Prepare or publish one developer-facing article outside the SandBase website.
 
 ## Execution Log
 
-To be filled during execution.
+- This day was originally reserved for a developer-facing off-site article.
+- The actual off-site publishing work was completed later during Day 15.
+- Published DEV.to article:
+  - `https://dev.to/sandbaseai/production-ai-agents-need-a-runtime-layer-2o2a`
+- Local draft:
+  - `30-day-growth-diary/drafts/devto-production-ai-agents-runtime-layer.md`
+- Decision: keep this file as the original Day 11 plan, but treat Day 15 as the execution record.
 
 ## Links Created Or Updated
 
-To be filled during execution.
+- Execution record:
+  - `30-day-growth-diary/days/day15-open-source-opportunity-sourcing.md`
+- DEV.to profile:
+  - `https://dev.to/sandbaseai`
 
 ## Questions / Blockers
 
-To be filled during execution.
+- Publishing cadence shifted because external profile setup, directory checks, and GitHub trust work took priority.
 
 ## Lesson
 
-To be filled after execution.
+- Off-site articles work best when they are tied to a real technical asset or category insight, not published only to satisfy a calendar slot.
 
 ## Next Action
 
-To be filled after execution.
+- Use Day 21 for the next long-form article: `We mapped 500 AI agent infrastructure projects`.

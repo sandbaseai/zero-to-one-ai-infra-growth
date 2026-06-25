@@ -4,7 +4,7 @@ Date: 2026-06-20
 
 Stage: Week 2 — Distribution and daily operations
 
-Status: In progress
+Status: Completed
 
 ## Goal
 
@@ -138,9 +138,9 @@ Each project should be evaluated by:
 
 ## Links Created Or Updated
 
-- Planning doc: [Emerging Agent Infrastructure Registry](../playbooks/emerging-agent-infrastructure-registry.md)
-- Submission kit: [Directory Submission Kit](../playbooks/directory-submission-kit.md)
-- Directory batch: [Directory Batch — 2026-06-20](../playbooks/directory-batch-2026-06-20.md)
+- Planning doc: [Emerging Agent Infrastructure Registry](../../playbooks/emerging-agent-infrastructure-registry.md)
+- Submission kit: [Directory Submission Kit](../../playbooks/directory-submission-kit.md)
+- Directory batch: [Directory Batch — 2026-06-20](../../playbooks/directory-batch-2026-06-20.md)
 - Peerlist profile: https://peerlist.io/sandbase
 
 ## Questions / Blockers

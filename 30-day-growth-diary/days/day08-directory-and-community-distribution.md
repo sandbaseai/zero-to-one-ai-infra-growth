@@ -4,9 +4,9 @@ Date: 2026-06-19
 
 Stage: Week 2 — Trust and distribution
 
-Status: Started
+Status: Completed as strategy / preparation
 
-![Day 8 social card](../assets/social-cards/day08-distribution.svg)
+![Day 8 social card](../../assets/social-cards/day08-distribution.svg)
 
 ## Context
 

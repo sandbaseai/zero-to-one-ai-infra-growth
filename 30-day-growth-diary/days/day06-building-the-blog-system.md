@@ -6,7 +6,7 @@ Stage: Week 1 — Content infrastructure
 
 Status: Completed
 
-![Day 6 social card](../assets/generated-images/day06-blog-system.png)
+![Day 6 social card](../../assets/generated-images/day06-blog-system.png)
 
 ## Context
 

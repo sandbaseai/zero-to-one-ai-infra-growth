@@ -4,7 +4,7 @@ Date: 2026-06-21
 
 Stage: Week 2 — Distribution and daily operations
 
-Status: In progress
+Status: Completed
 
 ## Goal
 
@@ -94,7 +94,7 @@ Production agents need somewhere reliable to run.
 
 ## Links Created Or Updated
 
-- LinkedIn visual: [linkedin-uneed-agent-infra.png](../assets/generated-images/linkedin-uneed-agent-infra.png)
+- LinkedIn visual: [linkedin-uneed-agent-infra.png](../../assets/generated-images/linkedin-uneed-agent-infra.png)
 - LinkedIn company page: https://www.linkedin.com/company/sandbaseai/
 - X opinion post: https://x.com/SandbaseAI/status/2068531079229874614
 - Discord `#agent-runtime`: daily runtime-boundary discussion posted

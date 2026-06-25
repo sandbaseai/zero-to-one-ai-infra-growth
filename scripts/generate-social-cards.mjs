@@ -77,6 +77,14 @@ const cards = [
     blocks: ['Dev.to', 'Directories', 'GitHub', 'Communities', 'LinkedIn', 'X'],
     footer: 'Distribution works better after trust exists.',
   },
+  {
+    file: 'agent-sandbox-runtime-checklist.svg',
+    label: 'RUNTIME CHECKLIST',
+    title: 'Agent Sandbox Runtime Checklist',
+    subtitle: 'Before, during, and after execution.',
+    blocks: ['Capabilities', 'Filesystem', 'Network', 'Lifecycle', 'Audit', 'Integration'],
+    footer: 'Production agents need runtime boundaries operators can inspect.',
+  },
 ];
 
 function esc(value) {

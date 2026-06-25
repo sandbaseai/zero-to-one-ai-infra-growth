@@ -4,7 +4,7 @@ Date: 2026-06-21
 
 Stage: Week 2 — Distribution and daily operations
 
-Status: In progress
+Status: Completed
 
 ## Goal
 
@@ -121,8 +121,8 @@ This is an early sign that the external profile strategy is working.
 
 ## Links Created Or Updated
 
-- Evidence screenshot: [Google brand result with Peerlist](../assets/google-brand-result-peerlist-2026-06-21.png)
-- LinkedIn social visual: [linkedin-uneed-agent-infra.png](../assets/generated-images/linkedin-uneed-agent-infra.png)
+- Evidence screenshot: [Google brand result with Peerlist](../../assets/google-brand-result-peerlist-2026-06-21.png)
+- LinkedIn social visual: [linkedin-uneed-agent-infra.png](../../assets/generated-images/linkedin-uneed-agent-infra.png)
 - Peerlist profile/posts surface: https://peerlist.io/sandbase
 - Uneed draft slug prepared: `sandbase`
 

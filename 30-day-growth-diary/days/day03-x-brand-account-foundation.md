@@ -6,7 +6,7 @@ Stage: Week 1 — Public account foundation
 
 Status: Completed
 
-![Day 3 social card](../assets/generated-images/day03-x-build-signal.png)
+![Day 3 social card](../../assets/generated-images/day03-x-build-signal.png)
 
 ## Context
 

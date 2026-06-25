@@ -6,7 +6,7 @@ Stage: Week 1 — Foundation
 
 Status: Completed
 
-![Day 1 social card](../assets/generated-images/day01-seo-crawlability.png)
+![Day 1 social card](../../assets/generated-images/day01-seo-crawlability.png)
 
 ## Context
 

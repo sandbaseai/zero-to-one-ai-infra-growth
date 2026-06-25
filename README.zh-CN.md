@@ -39,9 +39,14 @@ Cold Start 的意思是：几乎没有受众、没有搜索基础、没有可信
 如果你是第一次看，建议先读：
 
 - [Daily Command Center](daily-command-center.md)
+- [SandBase Daily Growth SOP](playbooks/sandbase-daily-growth-sop.md)
+- [30-Day Completion Plan](30-day-growth-diary/30-day-completion-plan.md)
+- [Manual Quality Check](30-day-growth-diary/manual-quality-check.md)
 - [30-Day Growth Diary](30-day-growth-diary/)
 - [Overseas Builders Outreach](overseas-builders-outreach/)
 - [Hackathon Sponsorship](hackathon-sponsorship/)
+- [第 3 周计划 — Open-source growth base](30-day-growth-diary/weekly-recaps/week03-open-source-growth-base.md)
+- [第 4 周计划 — Launch readiness and 30-day recap](30-day-growth-diary/weekly-recaps/week04-launch-readiness-and-recap.md)
 - [第 1 周复盘 — 先搭可信基础盘，再做分发](zh-CN/week01-foundation-recap.md)
 - [第 2 周计划 — 分发和日常运营](zh-CN/week02-distribution-plan.md)
 - [Day 1 — SEO 体检：先让网站可被理解和抓取](zh-CN/days/day01-seo-audit.md)
@@ -200,49 +205,52 @@ Global AI Cold Start: 30 Days to Win Overseas AI Builders
 - 至少一个资产对开发者有真实价值
 - 每天至少沉淀一个问题、学习或内容想法
 
-### 第 3 周：问题驱动的内容集群
+### 第 3 周：开源增长底座
 
 目标：
 
-把第 2 周运营中遇到的问题、异议和重复困惑，转化为结构化内容集群。
+把 SandBase 的开源资产变成主要信任入口和分发引擎。
 
 交付物：
 
-- Agent runtime 内容
-- Sandboxed execution 内容
-- Tools / MCP 内容
-- Model routing 内容
-- Observability、guardrails、production reliability 内容
-- Blog、Docs、首页、Discord、落地页之间的内部链接
-- 把 Discord / 社交里的问题转成 FAQ、Docs 或 Blog 选题
+- 让 `awesome-agent-runtime` 具备外部贡献入口
+- 发布或准备 500 项目 agent infrastructure map
+- 准备 execution sandbox 内容集群
+- 准备 MCP / tool protocol 内容集群
+- 准备 maintainer outreach 草稿和互动规则
+- 生成可用于社媒分发的 PNG 图片
+- 所有公开发布继续保留人工确认边界
 
 成功标准：
 
-- 每个核心主题都有多篇支撑内容
-- 每篇文章有明确搜索意图和内部链接路径
-- Search Console 开始出现相关关键词 impressions
-- Blog 和 Docs 像是在回答真实开发者问题，而不是随机 AI 新闻
+- 开源入口项目可以承接社区提交
+- Day 18-20 素材都有清晰的发布 checklist
+- maintainer 互动具体、有上下文、不像 spam
+- repo 和社媒资产能解释 SandBase 的 agent infrastructure 定位，但不过度承诺
 
-### 第 4 周：权威内容和转化
+### 第 4 周：Launch readiness 和 30 天复盘
 
 目标：
 
-把前三周的基础、分发和问题发现，转化为权威页面、强 CTA 和外联机会。
+收口第一个冷启动周期，让所有公开资产准备好进入下一阶段。
 
 交付物：
 
-- `/agent-infrastructure` 落地页
-- `/ai-agent-sandbox` 落地页
-- Agent Infrastructure Stack pillar 长文
-- 面向 newsletter、技术博主、开源项目和生态作者的外联
-- 优化 Discord、Docs、Contact、Quickstart 等转化入口
+- 清理外部 profile 和 backlink surfaces
+- 检查 SandBase.ai 官网、footer、docs、blog、status page、社媒链接
+- 准备 Product Hunt 或其他 launch surface 素材，但不仓促 launch
+- 启动开源项目社区提交循环
+- 收集 metrics、经验、问题和渠道决策
+- 起草或发布最终 30 天案例复盘
+- 定义下一个 30 天主题：从 public trust 到 developer adoption
 
 成功标准：
 
-- 至少 3-5 个清晰转化入口
-- Pillar 内容成为内部链接 hub
-- 外联具体、有上下文，不是群发模板
-- 官网、Blog、GitHub、社交、社区的定位一致
+- 官网、GitHub、X、LinkedIn、DEV.to、Discord 和外部 profiles 讲同一个故事
+- launch 素材真实、克制，可支持 go/no-go 决策
+- metrics 有记录，但不夸大
+- 最终复盘对其他 founder 或 builder 也有复用价值
+- 下一阶段 30 天运营主题清晰
 
 ## 图文索引
 
@@ -294,6 +302,28 @@ global-ai-cold-start
 - [Day 13 — 日常社媒运营循环](zh-CN/days/day13-daily-social-operation.md)
 - [Day 14 — 第 2 周复盘](zh-CN/days/day14-week-two-review.md)
 - [第 2 周计划 — 分发和日常运营](zh-CN/week02-distribution-plan.md)
+
+### 第 3-4 周：开源增长和 30 天收口
+
+- [30-Day Completion Plan](30-day-growth-diary/30-day-completion-plan.md)
+- [Day 15 — Open source opportunity sourcing](30-day-growth-diary/days/day15-open-source-opportunity-sourcing.md)
+- [Day 16 — Runtime control plane interactions](30-day-growth-diary/days/day16-runtime-control-plane-interactions.md)
+- [Day 17 — GitHub project readiness](30-day-growth-diary/days/day17-github-project-readiness.md)
+- [Day 18 — 500-project announcement](30-day-growth-diary/days/day18-500-project-announcement.md)
+- [Day 19 — Execution sandbox cluster](30-day-growth-diary/days/day19-execution-sandbox-cluster.md)
+- [Day 20 — MCP and tool protocol cluster](30-day-growth-diary/days/day20-mcp-and-tool-protocol-cluster.md)
+- [Day 21 — Long-form article](30-day-growth-diary/days/day21-long-form-article.md)
+- [Day 22 — LinkedIn B2B narrative](30-day-growth-diary/days/day22-linkedin-b2b-narrative.md)
+- [Day 23 — Directory and profile cleanup](30-day-growth-diary/days/day23-directory-and-profile-cleanup.md)
+- [Day 24 — Community interaction day](30-day-growth-diary/days/day24-community-interaction-day.md)
+- [Day 25 — Website and trust surface review](30-day-growth-diary/days/day25-website-and-trust-surface-review.md)
+- [Day 26 — Product Hunt and launch surface prep](30-day-growth-diary/days/day26-product-hunt-and-launch-surface-prep.md)
+- [Day 27 — Open-source community push](30-day-growth-diary/days/day27-open-source-community-push.md)
+- [Day 28 — Metrics and learnings](30-day-growth-diary/days/day28-metrics-and-learnings.md)
+- [Day 29 — Final case study draft](30-day-growth-diary/days/day29-final-case-study-draft.md)
+- [Day 30 — Publish recap and set next 30 days](30-day-growth-diary/days/day30-publish-recap-and-set-next-30-days.md)
+- [第 3 周计划 — Open-source growth base](30-day-growth-diary/weekly-recaps/week03-open-source-growth-base.md)
+- [第 4 周计划 — Launch readiness and 30-day recap](30-day-growth-diary/weekly-recaps/week04-launch-readiness-and-recap.md)
 
 ## 已创建的公开资产
 
