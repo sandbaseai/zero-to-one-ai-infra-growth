@@ -97,6 +97,34 @@ CARDS = [
         "Only render the exact requested text and the six labels: Dev.to, Directories, GitHub, Communities, LinkedIn, X.",
     ),
     (
+        "week02-distribution",
+        "Create a polished 1600x900 README and social media infographic for a public AI infrastructure cold-start case study. "
+        "Text: 'Week 2: Distribution System' and 'Turn trust assets into discoverable surfaces.' "
+        "Show a clean distribution hub connected to six readable nodes: Dev.to, Directories, GitHub, X, LinkedIn, Discord. "
+        "Use a small secondary line: 'Context beats link dumping.' "
+        "Style: calm technical editorial, off-white background, black text, muted gray panels, teal accents, subtle grid, professional README image, large readable typography. "
+        "Use plain text labels and simple generic line icons only. Do not draw any real platform logo marks, app icons, brand glyphs, or trademark-like symbols. "
+        "Avoid: tiny text, fake dashboards, fake metrics, private account data, emails, tokens, real platform logos, stock-photo people, cartoon mascots, neon cyberpunk, excessive gradients, hype claims, misspellings.",
+    ),
+    (
+        "week03-open-source-growth-base",
+        "Create a polished 1600x900 README and social media infographic for an open-source AI infrastructure growth case study. "
+        "Text: 'Week 3: Open-Source Growth Base' and 'Map the ecosystem before asking for attention.' "
+        "Show Awesome Agent Runtime as the central open-source asset connected to five readable nodes: 500 Projects, Runtime Stack, Sandbox Cluster, MCP Tools, Maintainer Outreach. "
+        "Use a small secondary line: 'Useful maps create permission to participate.' "
+        "Style: calm technical editorial, off-white background, black text, muted gray panels, teal accents, subtle grid, professional GitHub README image, large readable typography. "
+        "Avoid: tiny text, fake dashboards, fake metrics, private account data, emails, tokens, real platform logos, stock-photo people, cartoon mascots, neon cyberpunk, excessive gradients, hype claims, misspellings.",
+    ),
+    (
+        "week04-launch-readiness-recap",
+        "Create a polished 1600x900 README and social media infographic for a 30-day AI infrastructure cold-start recap. "
+        "Text: 'Week 4: Launch Readiness & Recap' and 'Package the proof, then decide what to amplify.' "
+        "Show a clean launch-readiness board with six readable checks: Positioning, Website Trust, Public Assets, Metrics, Case Study, Next 30 Days. "
+        "Use a small secondary line: 'Polish the proof before the push.' "
+        "Style: calm technical editorial, off-white background, black text, muted gray panels, teal accents, subtle grid, professional README image, large readable typography. "
+        "Avoid: tiny text, fake dashboards, fake metrics, private account data, emails, tokens, real platform logos, stock-photo people, cartoon mascots, neon cyberpunk, excessive gradients, hype claims, misspellings.",
+    ),
+    (
         "linkedin-uneed-agent-infra",
         "Create a polished 1600x900 LinkedIn social media infographic for a B2B developer infrastructure company. "
         "Text: 'Agent Infrastructure for Production AI Agents' and 'From demos to reliable systems.' "
@@ -133,6 +161,25 @@ CARDS = [
         "Place 'Awesome Agent Runtime' as the central title node and include a small footer: 'github.com/sandbaseai/awesome-agent-runtime'. "
         "Style: calm technical editorial, off-white background, black text, muted gray panels, teal accents, subtle grid, professional open-source announcement image, large readable typography. "
         "Avoid: tiny text, fake dashboards, fake metrics, real platform logos, stock-photo people, cartoon mascots, neon cyberpunk, excessive gradients, hype claims, misspellings.",
+    ),
+    (
+        "day20-cold-start-progress-report",
+        "Create a polished 1600x900 README hero image for a public case study about an AI infrastructure startup cold start. "
+        "Text: 'SandBase.ai Cold-Start Progress' and 'Day 1-20: from invisible to developer-facing trust surface.' "
+        "Show a clean journey map from Invisible Product to Public Trust Layer to Open-Source Growth Base. "
+        "Include five readable signal nodes: Website, GitHub, Technical Content, Social Channels, Community. "
+        "Do not add any footer sentence or extra explanatory body text beyond the requested title, subtitle, journey labels, and signal node labels. "
+        "Style: calm technical editorial, off-white background, black text, muted gray panels, teal accents, subtle grid, professional GitHub README image, large readable typography. "
+        "Avoid: tiny text, fake dashboards, fake metrics, private account data, emails, tokens, real platform logos, stock-photo people, cartoon mascots, neon cyberpunk, excessive gradients, hype claims, misspellings.",
+    ),
+    (
+        "open-source-growth-flywheel",
+        "Create a polished 1600x900 infographic for an open-source AI infrastructure growth flywheel. "
+        "Text: 'Open-Source Growth Flywheel' and 'Map the ecosystem. Help maintainers. Earn trust.' "
+        "Show a circular flywheel with six readable stages: Research, Curate, Publish, Invite Corrections, Improve Descriptions, Compound Trust. "
+        "Place 'Awesome Agent Runtime' in the center. "
+        "Style: calm technical editorial, off-white background, black text, muted gray panels, teal accents, subtle grid, professional GitHub README image, large readable typography. "
+        "Avoid: tiny text, fake dashboards, fake metrics, private data, real platform logos, stock-photo people, cartoon mascots, neon cyberpunk, excessive gradients, hype claims, misspellings.",
     ),
 ]
 

@@ -1,55 +1,63 @@
-# Global AI Cold Start: 30 Days to Win Overseas AI Builders
+# Global AI Cold Start
 
-> A live build-in-public playbook for taking an AI startup from zero to its first overseas builders, credible channels, content assets, backlinks, and community signals.
+> A public case study on turning SandBase.ai from an invisible early AI infrastructure product into a searchable, developer-facing trust surface.
 
 [中文版本](README.zh-CN.md)
+
+![SandBase cold-start foundation](assets/generated-images/week01-foundation.png)
 
 Most AI startups do not fail because nobody can build the demo.
 
 They fail because almost nobody outside the team can discover it, understand it, trust it, or remember it.
 
-This repository documents the cold-start growth work behind SandBase.ai, an agent infrastructure startup for developers building production AI agents.
+This repository documents the public cold-start growth work behind [SandBase.ai](https://www.sandbase.ai/), an agent infrastructure startup for developers building production AI agents.
 
 Cold start means starting with almost no audience, no search footprint, no trusted backlinks, and no developer community. The goal is not to go viral overnight. The goal is to build enough public proof that overseas AI builders can discover, understand, and trust the product.
 
-In 30 days, we are turning one real AI infrastructure startup into a public growth case study.
+In 30 days, we are turning one real AI infrastructure startup into a public, reusable growth case study.
 
-What we are building:
+## Current Snapshot
 
-- make Google understand the product
-- make developers trust the product
-- build public channels before launch
-- publish technical content that compounds
-- create external mentions without spam
-- turn daily operations into a repeatable playbook
+As of Day 20, the work has produced:
 
-What you can copy:
+- a clearer positioning around production AI agent infrastructure
+- a public website, blog, GitHub org, X, LinkedIn, Discord, and Dev.to loop
+- a repeatable daily operating SOP
+- technical content clusters around sandboxes, MCP, runtime policy, and tool safety
+- a 500-project ecosystem map in [Awesome Agent Runtime](https://github.com/sandbaseai/awesome-agent-runtime)
+- public-safe visual assets for social and README distribution
 
-- daily growth checklists
-- daily command center for growth, outreach, and hackathon sponsorship
-- SEO and content structure
-- developer community setup
-- GitHub trust asset examples
-- directory and backlink decisions
-- Dev.to, X, LinkedIn, and Discord distribution notes
-- overseas builder outreach and hackathon sponsorship playbooks
+Read the concise public summary first:
 
-![Week 1 trust foundation](assets/generated-images/week01-foundation.png)
+- [SandBase.ai Cold-Start Progress Report](public-progress-report.md)
 
-If you are new here, start with:
+![Day 20 cold-start progress report](assets/generated-images/day20-cold-start-progress-report.png)
+
+## What You Can Reuse
+
+- The daily growth command center and SOP.
+- A 30-day structure for SEO, content, GitHub, social, community, and backlinks.
+- The decision rules for developer directories and external links.
+- The operating pattern for using Codex as a growth and documentation partner.
+- Public-safe content packaging for AI infrastructure companies.
+- The non-spam approach to GitHub/community participation.
+
+## Start Here
 
 - [Daily Command Center](daily-command-center.md)
 - [SandBase Daily Growth SOP](playbooks/sandbase-daily-growth-sop.md)
+- [Public Promotion Plan](promotion/README.md)
+- [Public Progress Report](public-progress-report.md)
 - [30-Day Completion Plan](30-day-growth-diary/30-day-completion-plan.md)
-- [Manual Quality Check](30-day-growth-diary/manual-quality-check.md)
 - [30-Day Growth Diary](30-day-growth-diary/)
-- [Overseas Builders Outreach](overseas-builders-outreach/)
-- [Hackathon Sponsorship](hackathon-sponsorship/)
+- [Manual Quality Check](30-day-growth-diary/manual-quality-check.md)
 - [Week 3 plan — Open-source growth base](30-day-growth-diary/weekly-recaps/week03-open-source-growth-base.md)
 - [Week 4 plan — Launch readiness and 30-day recap](30-day-growth-diary/weekly-recaps/week04-launch-readiness-and-recap.md)
-- [Week 1 recap — Building the trust foundation before distribution](30-day-growth-diary/weekly-recaps/week01-foundation-recap.md)
-- [Week 2 plan — Distribution and daily operations](30-day-growth-diary/weekly-recaps/week02-distribution-plan.md)
-- [Day 1 — Before content, make sure Google can see the site](30-day-growth-diary/days/day01-seo-audit.md)
+
+Deeper playbooks:
+
+- [Overseas Builders Outreach](overseas-builders-outreach/)
+- [Hackathon Sponsorship](hackathon-sponsorship/)
 - [Image prompts for social cards](assets/image-prompts/README.md)
 
 ## Who This Is For
@@ -76,7 +84,9 @@ The case study is SandBase.ai, a B2B AI infrastructure product. The repeatable p
 - community interaction
 - high-quality backlinks
 - launch preparation
-- operational lessons from using Codex as an AI ops partner
+- operational lessons from using AI as a planning and documentation partner
+
+The public version is intentionally curated. Raw operational notes are useful for learning, but the README focuses on decisions, assets, and lessons rather than a blow-by-blow activity log.
 
 The goal is simple:
 
@@ -136,37 +146,31 @@ The goal is not to create a burst of attention.
 
 The goal is to make the product easier to understand, easier to trust, easier to discover, and easier to return to. If we keep improving those signals day after day, quantity becomes quality over time.
 
-## How Codex Is Used
+## Operating Method
 
-Codex is used as an operating partner across the project, not just as a code generator.
+This project uses AI as an operating partner across research, writing, review, and documentation.
 
-It helps with:
+The useful pattern is:
 
-- auditing site structure
-- drafting and editing technical content
-- operating browser workflows with confirmation
-- creating GitHub assets
-- organizing daily logs
-- turning messy actions into reusable playbooks
-- checking that public actions do not expose private account details
-
-But Codex does not blindly submit forms, publish posts, add admins, or create public assets without confirmation.
+- inspect the current public surface
+- draft or revise useful assets
+- package scattered work into reusable playbooks
+- keep public claims specific and verifiable
+- record decisions instead of only recording tasks
 
 The workflow is:
 
 ```text
-Human sets goal
+Founder sets goal
   ↓
-Codex inspects context
+AI helps inspect, draft, and organize
   ↓
-Codex drafts / prepares / operates
+Founder reviews public side effects
   ↓
-Human confirms public side effects
-  ↓
-Codex records what happened
+The result becomes a clearer public asset
 ```
 
-That confirmation boundary is one of the key lessons of this project.
+The point is not to automate judgment away. The point is to make the work more consistent, reviewable, and easier to compound.
 
 ## How to Read This
 
@@ -217,7 +221,6 @@ Every day should explain:
 | Tool | Used For |
 |------|----------|
 | Codex | AI coding and ops partner |
-| Browser | Live account and website operations |
 | Google Search Console | Sitemap, indexing, URL inspection |
 | GitHub | Developer trust assets and public repositories |
 | LinkedIn | Company page, B2B social proof, official updates |
@@ -227,9 +230,9 @@ Every day should explain:
 | Product Hunt | Launch preparation |
 | Hacker News | Technical discussion and future Show HN |
 | Reddit | Community participation, not link dumping |
-| Kimi | Research and backlink strategy material |
+| AI research tools | Topic research and backlink strategy material |
 
-Sensitive account details, private emails, tokens, billing data, and private conversations are intentionally excluded.
+The public materials are intentionally curated around reusable decisions, assets, and lessons.
 
 ## 30-Day Arc
 
@@ -242,8 +245,12 @@ Sensitive account details, private emails, tokens, billing data, and private con
 
 ## Visual Index
 
-| Day | What changed | Visual |
-|-----|--------------|--------|
+| Stage | What changed | Visual |
+|-------|--------------|--------|
+| Week 1 | Trust foundation | ![Week 1](assets/generated-images/week01-foundation.png) |
+| Week 2 | Distribution system | ![Week 2](assets/generated-images/week02-distribution.png) |
+| Week 3 | Open-source growth base | ![Week 3](assets/generated-images/week03-open-source-growth-base.png) |
+| Week 4 | Launch readiness and recap | ![Week 4](assets/generated-images/week04-launch-readiness-recap.png) |
 | Day 1 | SEO crawlability audit | ![Day 1](assets/generated-images/day01-seo-crawlability.png) |
 | Day 2 | Fix verification and Search Console readiness | ![Day 2](assets/generated-images/day02-verification.png) |
 | Day 3 | X account as a daily build signal | ![Day 3](assets/generated-images/day03-x-build-signal.png) |
@@ -251,6 +258,11 @@ Sensitive account details, private emails, tokens, billing data, and private con
 | Day 5 | LinkedIn company page as B2B trust surface | ![Day 5](assets/generated-images/day05-linkedin-trust.png) |
 | Day 6 | Blog as content infrastructure | ![Day 6](assets/generated-images/day06-blog-system.png) |
 | Day 7 | Website, blog, GitHub, and community connected | ![Day 7](assets/generated-images/day07-trust-system.png) |
+| Day 16 | Runtime control plane narrative | ![Day 16](assets/generated-images/day16-runtime-control-plane.png) |
+| Day 18 | 500-project agent runtime map | ![Day 18](assets/generated-images/day18-500-agent-runtime-map.png) |
+| Day 20 | Cold-start progress report | ![Day 20](assets/generated-images/day20-cold-start-progress-report.png) |
+| Open source | Growth flywheel | ![Open-source growth flywheel](assets/generated-images/open-source-growth-flywheel.png) |
+| Runtime checklist | Agent sandbox compatibility checklist | ![Runtime checklist](assets/generated-images/agent-sandbox-runtime-checklist.png) |
 
 ## Weekly Goals
 
@@ -358,7 +370,6 @@ global-ai-cold-start
 ├── overseas-builders-outreach/   # builder outreach, customer discovery, partnerships
 ├── hackathon-sponsorship/        # hackathon support and developer event sponsorship
 ├── playbooks/                    # reusable operating playbooks
-├── templates/                    # reusable templates
 ├── assets/                       # visuals and generated images
 └── scripts/                      # content and image generation helpers
 ```
@@ -389,15 +400,44 @@ If the first part explains how to make an AI infra startup discoverable and trus
 - [Day 14 — Week two review](30-day-growth-diary/days/day14-week-two-review.md)
 - [Week 2 plan — Distribution and daily operations](30-day-growth-diary/weekly-recaps/week02-distribution-plan.md)
 
+### Week 3 — Open-Source Growth Base
+
+- [Day 15 — Open-source opportunity sourcing](30-day-growth-diary/days/day15-open-source-opportunity-sourcing.md)
+- [Day 16 — Runtime control plane interactions](30-day-growth-diary/days/day16-runtime-control-plane-interactions.md)
+- [Day 17 — GitHub project readiness](30-day-growth-diary/days/day17-github-project-readiness.md)
+- [Day 18 — 500-project announcement](30-day-growth-diary/days/day18-500-project-announcement.md)
+- [Day 19 — Execution sandbox cluster](30-day-growth-diary/days/day19-execution-sandbox-cluster.md)
+- [Day 20 — MCP and tool protocol cluster](30-day-growth-diary/days/day20-mcp-and-tool-protocol-cluster.md)
+- [Week 3 plan — Open-source growth base](30-day-growth-diary/weekly-recaps/week03-open-source-growth-base.md)
+
+### Week 4 — Planned Launch Readiness And Recap
+
+- [Day 21 — Long-form article](30-day-growth-diary/days/day21-long-form-article.md)
+- [Day 22 — LinkedIn B2B narrative](30-day-growth-diary/days/day22-linkedin-b2b-narrative.md)
+- [Day 23 — Directory and profile cleanup](30-day-growth-diary/days/day23-directory-and-profile-cleanup.md)
+- [Day 24 — Community interaction day](30-day-growth-diary/days/day24-community-interaction-day.md)
+- [Day 25 — Website and trust surface review](30-day-growth-diary/days/day25-website-and-trust-surface-review.md)
+- [Day 26 — Product Hunt and launch surface prep](30-day-growth-diary/days/day26-product-hunt-and-launch-surface-prep.md)
+- [Day 27 — Open-source community push](30-day-growth-diary/days/day27-open-source-community-push.md)
+- [Day 28 — Metrics and learnings](30-day-growth-diary/days/day28-metrics-and-learnings.md)
+- [Day 29 — Final case study draft](30-day-growth-diary/days/day29-final-case-study-draft.md)
+- [Day 30 — Publish recap and set next 30 days](30-day-growth-diary/days/day30-publish-recap-and-set-next-30-days.md)
+- [Week 4 plan — Launch readiness and 30-day recap](30-day-growth-diary/weekly-recaps/week04-launch-readiness-and-recap.md)
+
 ## Public Assets Created So Far
 
 - Website: https://www.sandbase.ai
 - Blog: https://www.sandbase.ai/blog/
 - LinkedIn company page: https://www.linkedin.com/company/sandbaseai/
 - GitHub org: https://github.com/sandbaseai
+- GitHub ecosystem map: https://github.com/sandbaseai/awesome-agent-runtime
 - GitHub resource repo: https://github.com/sandbaseai/awesome-native-agent-platforms
 - X: https://x.com/SandbaseAI
 - Discord: https://discord.com/invite/P6B5Y4e8TX
+
+## Publishing Note
+
+This repository is curated for public learning and promotion. The README and progress report focus on reusable decisions, assets, and lessons rather than raw operating logs.
 
 ## Principles
 
@@ -414,15 +454,14 @@ If the first part explains how to make an AI infra startup discoverable and trus
 
 ## Current Status
 
-The first public trust layer is live:
+Day 20 status:
 
-- LinkedIn company page exists
-- First LinkedIn company post published
-- Discord community reviewed and made ready for small public sharing
-- GitHub resource repo published
-- Dev.to profile created and first technical article published
-- Directory submission blockers identified
-- Product Hunt and Hacker News intentionally deferred
+- Public trust foundation is live across website, blog, GitHub, X, LinkedIn, Discord, and Dev.to.
+- Week 3 shifted the strongest growth wedge toward open-source ecosystem assets.
+- `awesome-agent-runtime` now maps 500 production-agent infrastructure projects.
+- Execution sandbox and MCP/tool protocol content clusters are prepared.
+- Public actions are recorded with confirmation boundaries and safety notes.
+- The next milestone is a polished 30-day recap and a cleaner launch-readiness package.
 
 ## License
 
