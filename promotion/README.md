@@ -65,6 +65,17 @@ We documented the first 20 days of turning an AI infrastructure startup from alm
 | 6 | Global AI Cold Start | Founder/operator thread about the first 20 days |
 | 7 | Both | Weekly update: corrections, new stars/issues, lessons, next focus |
 
+## Social Poster Assets
+
+Use these 16:9 PNG posters for X, LinkedIn, Discord, Dev.to headers, newsletters, and community posts.
+
+| Use | Asset |
+| --- | --- |
+| Awesome Agent Runtime main announcement | `../assets/generated-images/promo-awesome-agent-runtime-map.png` |
+| Maintainer corrections welcome | `../assets/generated-images/promo-awesome-maintainers-welcome.png` |
+| Global AI Cold Start announcement | `../assets/generated-images/promo-global-ai-cold-start.png` |
+| Two public SandBase assets | `../assets/generated-images/promo-sandbase-open-source-assets.png` |
+
 ## Copy Blocks
 
 ### Awesome Agent Runtime X Post

@@ -181,6 +181,47 @@ CARDS = [
         "Style: calm technical editorial, off-white background, black text, muted gray panels, teal accents, subtle grid, professional GitHub README image, large readable typography. "
         "Avoid: tiny text, fake dashboards, fake metrics, private data, real platform logos, stock-photo people, cartoon mascots, neon cyberpunk, excessive gradients, hype claims, misspellings.",
     ),
+    (
+        "promo-awesome-agent-runtime-map",
+        "Create a polished 1600x900 social media poster for X and LinkedIn. "
+        "Text: '500 AI Agent Infrastructure Projects' and 'A map of the production agent stack.' "
+        "Show a clean landscape map with ten readable category labels: Runtimes, Sandboxes, Browser Automation, MCP Tools, App Integrations, Memory, Safety, Observability, Model Gateways, Deployment. "
+        "Place 'Awesome Agent Runtime' as the central title node. "
+        "Style: calm technical editorial, off-white background, black text, muted gray panels, teal accents, subtle grid, strong first-glance readability, professional open-source launch poster. "
+        "Use plain labels and generic line icons only. Do not draw real platform logos or app icons. "
+        "Avoid: tiny text, long URLs, fake metrics, ranking language, endorsements, private data, stock-photo people, cartoon mascots, neon cyberpunk, excessive gradients, hype claims, misspellings.",
+    ),
+    (
+        "promo-awesome-maintainers-welcome",
+        "Create a polished 1600x900 social media poster for open-source maintainer outreach. "
+        "Text: 'Maintainers: Corrections Welcome' and 'Help make the agent infrastructure map more accurate.' "
+        "Show a clean review workflow with four readable steps: Listed, Review, Correct, Improve. "
+        "Include a small label: 'Awesome Agent Runtime'. "
+        "Style: calm technical editorial, off-white background, black text, muted gray panels, teal accents, subtle grid, constructive and neutral tone, professional GitHub community poster. "
+        "Use generic check, edit, and document icons only. Do not draw real platform logos or app icons. "
+        "Avoid: tiny text, long URLs, fake dashboards, ranking language, endorsement claims, private data, stock-photo people, cartoon mascots, neon cyberpunk, excessive gradients, hype claims, misspellings.",
+    ),
+    (
+        "promo-global-ai-cold-start",
+        "Create a polished 1600x900 social media poster for a public founder/operator case study. "
+        "Text: 'Global AI Cold Start' and '30 days to build a public trust layer.' "
+        "Show a clean journey from Invisible Product to Searchable Trust Surface to Developer Adoption. "
+        "Include five readable signal nodes: Website, GitHub, Content, Community, Backlinks. "
+        "Style: calm technical editorial, off-white background, black text, muted gray panels, teal accents, subtle grid, professional startup case-study poster, strong first-glance readability. "
+        "Use generic line icons only. Do not draw real platform logos or app icons. "
+        "Avoid: tiny text, long URLs, fake metrics, private operational details, stock-photo people, cartoon mascots, neon cyberpunk, excessive gradients, hype claims, misspellings.",
+    ),
+    (
+        "promo-sandbase-open-source-assets",
+        "Create a polished 1600x900 social media poster introducing two public SandBase open-source assets. "
+        "Text: 'Two Public SandBase Assets' and 'An ecosystem map plus a cold-start playbook.' "
+        "Show two large side-by-side panels: 'Awesome Agent Runtime' and 'Global AI Cold Start'. "
+        "Under the first panel, include three labels: 500 Projects, 10 Categories, Maintainer Corrections. "
+        "Under the second panel, include three labels: 30 Days, Trust Layer, Founder Playbook. "
+        "Style: calm technical editorial, off-white background, black text, muted gray panels, teal accents, subtle grid, balanced two-column composition, professional social launch poster. "
+        "Use generic line icons only. Do not draw real platform logos or app icons. "
+        "Avoid: tiny text, long URLs, fake metrics, endorsement claims, private data, stock-photo people, cartoon mascots, neon cyberpunk, excessive gradients, hype claims, misspellings.",
+    ),
 ]
 
 
@@ -266,7 +307,13 @@ def wait_for_run(name: str, run_id: str) -> Path:
 
 
 def generate_one(name: str, prompt: str) -> Path:
-    submitted = request_json("POST", f"{BASE}/run", {"model": "openai/gpt-image-2", "prompt": prompt})
+    submitted = request_json("POST", f"{BASE}/run", {
+        "model": "openai/gpt-image-2",
+        "aspect_ratio": "16:9",
+        "output_format": "png",
+        "quality": "high",
+        "prompt": prompt,
+    })
     run_id = submitted["id"]
     print(f"{name}: submitted {run_id}")
     return wait_for_run(name, run_id)
